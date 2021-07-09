@@ -51,7 +51,7 @@
 		</script>
 		
 		
-		<?php if( get_field('wmns_sqookie_yn', 'option') && !isset($_COOKIE['wmns_sqookie_setup']) ){ ?>
+		<!--<?php if( get_field('wmns_sqookie_yn', 'option') && !isset($_COOKIE['wmns_sqookie_setup']) ){ ?>
 			<div id="dialogbox">
 				<div>
 					<div id="dialogboxbody">
@@ -71,7 +71,7 @@
 					console.log('Qookie setuping.');
 				}
 			</script><?php
-		} ?>
+		} ?>-->
 		
 		
 		<?php wp_footer() ?>

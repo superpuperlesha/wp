@@ -1,0 +1,24 @@
+2021-07-09T13:24:44+00:00 CRITICAL syntax error, unexpected '$', expecting variable (T_VARIABLE) in /var/www/clients/client0/wp.vagrant.devtestnet.com/web/wp-content/themes/base/inc/functions_woo.php on line 16
+
+2021-07-09T13:24:45+00:00 CRITICAL syntax error, unexpected '$', expecting variable (T_VARIABLE) in /var/www/clients/client0/wp.vagrant.devtestnet.com/web/wp-content/themes/base/inc/functions_woo.php on line 16
+
+2021-07-09T13:24:45+00:00 CRITICAL syntax error, unexpected '$', expecting variable (T_VARIABLE) in /var/www/clients/client0/wp.vagrant.devtestnet.com/web/wp-content/themes/base/inc/functions_woo.php on line 16
+
+2021-07-09T13:24:45+00:00 CRITICAL syntax error, unexpected '$', expecting variable (T_VARIABLE) in /var/www/clients/client0/wp.vagrant.devtestnet.com/web/wp-content/themes/base/inc/functions_woo.php on line 16
+
+2021-07-09T13:28:09+00:00 CRITICAL syntax error, unexpected '$', expecting variable (T_VARIABLE) in /var/www/clients/client0/wp.vagrant.devtestnet.com/web/wp-content/themes/base/inc/functions_woo.php on line 21
+
+2021-07-09T13:28:23+00:00 CRITICAL syntax error, unexpected '$', expecting variable (T_VARIABLE) in /var/www/clients/client0/wp.vagrant.devtestnet.com/web/wp-content/themes/base/inc/functions_woo.php on line 21
+
+2021-07-09T13:47:29+00:00 CRITICAL syntax error, unexpected 'product' (T_STRING), expecting variable (T_VARIABLE) or '$' in /var/www/clients/client0/wp.vagrant.devtestnet.com/web/wp-content/themes/base/inc/functions_woo.php on line 64
+
+2021-07-09T13:47:31+00:00 CRITICAL syntax error, unexpected 'product' (T_STRING), expecting variable (T_VARIABLE) or '$' in /var/www/clients/client0/wp.vagrant.devtestnet.com/web/wp-content/themes/base/inc/functions_woo.php on line 64
+
+2021-07-09T13:47:44+00:00 CRITICAL syntax error, unexpected ',' in /var/www/clients/client0/wp.vagrant.devtestnet.com/web/wp-content/themes/base/inc/functions_woo.php on line 66
+
+2021-07-09T13:47:44+00:00 CRITICAL syntax error, unexpected ',' in /var/www/clients/client0/wp.vagrant.devtestnet.com/web/wp-content/themes/base/inc/functions_woo.php on line 66
+
+2021-07-09T13:47:45+00:00 CRITICAL syntax error, unexpected ',' in /var/www/clients/client0/wp.vagrant.devtestnet.com/web/wp-content/themes/base/inc/functions_woo.php on line 66
+
+2021-07-09T13:47:45+00:00 CRITICAL syntax error, unexpected ',' in /var/www/clients/client0/wp.vagrant.devtestnet.com/web/wp-content/themes/base/inc/functions_woo.php on line 66
+

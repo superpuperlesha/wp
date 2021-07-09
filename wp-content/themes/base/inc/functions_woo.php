@@ -5,15 +5,90 @@ add_theme_support('woocommerce');
 
 
 
+
+//=======================ADD CUSTOM PRODUCT TYPE=========================
+//===admin register prodtype===
+add_action('init', 'register_mirror_product_type');
+function register_mirror_product_type(){
+    class WC_Product_Mirror extends WC_Product{
+        public function __construct($product){
+            $this->product_type = 'mirror';
+            parent::__construct($product);
+        }
+    }
+}
+//===admin prod sel prodtype===
+add_filter('product_type_selector', 'add_mirror_product_type');
+function add_mirror_product_type($types){
+    $types['mirror'] = __('Mirror product', 'base');
+    return $types;  
+}
+/*//===admin prod tab===
+add_filter('woocommerce_product_data_tabs', 'mirror_product_tab');
+function mirror_product_tab($tabs){
+    $tabs['mirror']=[
+            'label'  => __('Mirror Product', 'base'),
+            'target' => 'mirror_product_options',
+            'class'  => 'show_if_mirror_product',
+        ];
+    return $tabs;
+}
+//===admin prod datainput===
+add_action('woocommerce_product_data_panels', 'mirror_product_tab_product_tab_content');
+function mirror_product_tab_product_tab_content() {
+    echo'<div id="mirror_product_options" class="panel woocommerce_options_panel">
+            <div class="options_group">';
+    
+    woocommerce_wp_text_input([
+      'id'          => 'mirror_product_info',
+      'label'       => __('Mirror Product Spec', 'base'),
+      'placeholder' => '',
+      'desc_tip'    => 'true',
+      'description' => __( 'Enter Mirror product Info.', 'base' ),
+      'type'        => 'text'
+    ]);
+    
+    echo'</div>
+    </div>';
+}
+//===admin prod datasave===
+add_action('woocommerce_process_product_meta', 'save_mirror_product_settings');
+function save_mirror_product_settings($post_id){
+    $mirror_product_info = $_POST['mirror_product_info'] ?? '';
+    if(!empty($mirror_product_info)){
+    update_post_meta( $post_id, 'mirror_product_info', esc_attr($mirror_product_info));
+    }
+}
+//===prod front show===
+add_action('woocommerce_single_product_summary', 'mirror_product_front');
+function mirror_product_front(){
+    global $product;
+    if('mirror' == $product->get_type()){
+       echo 'GGG:'.get_post_meta($product->get_id(), 'mirror_product_info', true);
+    }
+}*/
+//=======================//ADD CUSTOM PRODUCT TYPE=========================
+
+
+
+
+
+
+
+
+
+
+
+//=============================ADD FIELD TO PROD,CART,THANKS,ORDER-PROD=============================
 //===1. Show custom input field above Add to Cart===
 add_action( 'woocommerce_before_add_to_cart_button', 'njengah_product_add_on', 9 );
 function njengah_product_add_on() {
     $custom_sp_width  = isset($_POST['custom_sp_width'])  ?(int)$_POST['custom_sp_width']  :0;
     $custom_sp_height = isset($_POST['custom_sp_height']) ?(int)$_POST['custom_sp_height'] :0;
     $custom_sp_square = isset($_POST['custom_sp_square']) ?(int)$_POST['custom_sp_square'] :0;
-    echo'<div><label>'.__('Width',  'xxx').'</label><input type="number" id="custom_sp_width"  min="0" step="1" name="custom_sp_width"  value="' . $custom_sp_width .  '"></div>';
-    echo'<div><label>'.__('Height', 'xxx').'</label><input type="number" id="custom_sp_height" min="0" step="1" name="custom_sp_height" value="' . $custom_sp_height . '"></div>';
-    echo'<div><label>'.__('Height', 'xxx').'</label><input type="number" id="custom_sp_square" min="0" step="1" name="custom_sp_square" value="' . $custom_sp_square . '" readonly></div>';
+    echo'<div><label>'.__('Width',  'base').'</label><input type="number" id="custom_sp_width"  min="0" step="1" name="custom_sp_width"  value="' . $custom_sp_width .  '"></div>';
+    echo'<div><label>'.__('Height', 'base').'</label><input type="number" id="custom_sp_height" min="0" step="1" name="custom_sp_height" value="' . $custom_sp_height . '"></div>';
+    echo'<div><label>'.__('Height', 'base').'</label><input type="number" id="custom_sp_square" min="0" step="1" name="custom_sp_square" value="' . $custom_sp_square . '" readonly></div>';
     echo'<script>
     		const custom_sp_width  = document.getElementById("custom_sp_width");
     		const custom_sp_height = document.getElementById("custom_sp_height");
@@ -30,11 +105,11 @@ function njengah_product_add_on() {
 add_filter( 'woocommerce_add_to_cart_validation', 'njengah_product_add_on_validation', 10, 3 );
 function njengah_product_add_on_validation( $passed, $product_id, $qty ){
    if( isset( $_POST['custom_sp_width'] )  && (int)$_POST['custom_sp_width'] == 0 ) {
-      wc_add_notice( __('Width is a required field', 'xxx'), 'error' );
+      wc_add_notice( __('Width is a required field', 'base'), 'error' );
       $passed = false;
    }
    if( isset( $_POST['custom_sp_height'] ) && (int)$_POST['custom_sp_height'] == 0 ) {
-      wc_add_notice( __('Height is a required field', 'xxx'), 'error' );
+      wc_add_notice( __('Height is a required field', 'base'), 'error' );
       $passed = false;
    }
    if( isset( $_POST['custom_sp_square'] ) && (int)$_POST['custom_sp_square'] < 1 ) {
@@ -64,19 +139,19 @@ add_filter( 'woocommerce_get_item_data', 'njengah_product_add_on_display_cart', 
 function njengah_product_add_on_display_cart( $data, $cart_item ) {
     if(isset( $cart_item['custom_sp_width'])){
         $data[] = array(
-            'name'  => __('Width', 'xxx'),
+            'name'  => __('Width', 'base'),
             'value' => (int)$cart_item['custom_sp_width']
         );
     }
     if(isset( $cart_item['custom_sp_height'])){
         $data[] = array(
-            'name'  => __('Height', 'xxx'),
+            'name'  => __('Height', 'base'),
             'value' => (int)$cart_item['custom_sp_height']
         );
     }
     if(isset( $cart_item['custom_sp_square'])){
         $data[] = array(
-            'name'  => __('Square', 'xxx'),
+            'name'  => __('Square', 'base'),
             'value' => (int)$cart_item['custom_sp_square']
         );
     }
@@ -87,13 +162,13 @@ function njengah_product_add_on_display_cart( $data, $cart_item ) {
 add_action( 'woocommerce_add_order_item_meta', 'njengah_product_add_on_order_item_meta', 10, 2 );
 function njengah_product_add_on_order_item_meta( $item_id, $values ) {
     if( !empty( $values['custom_sp_width'] )){
-        wc_add_order_item_meta( $item_id, __('Width', 'xxx'), $values['custom_sp_width'], true );
+        wc_add_order_item_meta( $item_id, __('Width', 'base'), $values['custom_sp_width'], true );
     }
     if( !empty( $values['custom_sp_height'] )){
-        wc_add_order_item_meta( $item_id, __('Height', 'xxx'), $values['custom_sp_height'], true );
+        wc_add_order_item_meta( $item_id, __('Height', 'base'), $values['custom_sp_height'], true );
     }
     if( !empty( $values['custom_sp_square'] )){
-        wc_add_order_item_meta( $item_id, __('Square', 'xxx'), $values['custom_sp_square'], true );
+        wc_add_order_item_meta( $item_id, __('Square', 'base'), $values['custom_sp_square'], true );
     }
 }
 
@@ -115,11 +190,12 @@ function njengah_product_add_on_display_order( $cart_item, $order_item ){
 //=== 7. Display custom input field value into order emails
 add_filter( 'woocommerce_email_order_meta_fields', 'njengah_product_add_on_display_emails' );
 function njengah_product_add_on_display_emails( $fields ) {
-    $fields['custom_sp_width']  = __('Width',  'xxx');
-    $fields['custom_sp_height'] = __('Height', 'xxx');
-    $fields['custom_sp_square'] = __('Square', 'xxx');
+    $fields['custom_sp_width']  = __('Width',  'base');
+    $fields['custom_sp_height'] = __('Height', 'base');
+    $fields['custom_sp_square'] = __('Square', 'base');
     return $fields;
 }
+//=============================//ADD FIELD TO PROD,CART,THANKS,ORDER-PROD=============================
 
 
 
@@ -132,8 +208,7 @@ function njengah_product_add_on_display_emails( $fields ) {
 
 
 
-
-//===Display admin product squere price===
+/*//===Display admin product squere price===
 add_action('woocommerce_product_options_general_product_data', 'woocommerce_product_squareprice');
 function woocommerce_product_squareprice() {
     global $product_object;
@@ -156,7 +231,7 @@ function woocommerce_product_custom_fields_save($product){
     if(isset($_POST['SPSquarePrice'])){
         $product->update_meta_data('SPSquarePrice', sanitize_text_field($_POST['SPSquarePrice']));
     }
-}
+}*/
 
 
 
