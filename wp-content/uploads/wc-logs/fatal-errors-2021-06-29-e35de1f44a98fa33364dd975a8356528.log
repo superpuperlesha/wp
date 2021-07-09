@@ -1,0 +1,10 @@
+2021-06-29T09:31:11+00:00 CRITICAL Uncaught Error: Call to undefined function getTList() in /var/www/clients/client0/wp.vagrant.devtestnet.com/web/wp-content/themes/base/template_part/list_item.php:15
+Stack trace:
+#0 /var/www/clients/client0/wp.vagrant.devtestnet.com/web/wp-includes/template.php(732): require()
+#1 /var/www/clients/client0/wp.vagrant.devtestnet.com/web/wp-includes/template.php(676): load_template('/var/www/client...', false, Array)
+#2 /var/www/clients/client0/wp.vagrant.devtestnet.com/web/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /var/www/clients/client0/wp.vagrant.devtestnet.com/web/wp-content/themes/base/index.php(8): get_template_part('template_part/l...')
+#4 /var/www/clients/client0/wp.vagrant.devtestnet.com/web/wp-includes/template-loader.php(106): include('/var/www/client...')
+#5 /var/www/clients/client0/wp.vagrant.devtestnet.com/web/wp-blog-header.php(19): require_once('/var/www/client...')
+#6 /var/www/clients/client0/wp.vagrant.devtestnet.com/web/index.php(17): require('/var/ww in /var/www/clients/client0/wp.vagrant.devtestnet.com/web/wp-content/themes/base/template_part/list_item.php on line 15
+

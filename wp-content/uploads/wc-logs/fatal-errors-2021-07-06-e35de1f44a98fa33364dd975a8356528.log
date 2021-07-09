@@ -1,0 +1,10 @@
+2021-07-06T17:06:58+00:00 CRITICAL Cannot declare class WC_Settings_Products, because the name is already in use in /var/www/clients/client0/wp.vagrant.devtestnet.com/web/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-products.php on line 0
+
+2021-07-06T17:08:56+00:00 CRITICAL Cannot declare class WC_Settings_Products, because the name is already in use in /var/www/clients/client0/wp.vagrant.devtestnet.com/web/wp-content/plugins/woocommerce/includes/admin/settings/class-wc-settings-products.php on line 0
+
+2021-07-06T17:38:03+00:00 CRITICAL syntax error, unexpected 'add_action' (T_STRING) in /var/www/clients/client0/wp.vagrant.devtestnet.com/web/wp-content/themes/base/functions.php on line 55
+
+2021-07-06T17:38:03+00:00 CRITICAL syntax error, unexpected 'add_action' (T_STRING) in /var/www/clients/client0/wp.vagrant.devtestnet.com/web/wp-content/themes/base/functions.php on line 55
+
+2021-07-06T17:38:03+00:00 CRITICAL syntax error, unexpected 'add_action' (T_STRING) in /var/www/clients/client0/wp.vagrant.devtestnet.com/web/wp-content/themes/base/functions.php on line 55
+

@@ -1,0 +1,207 @@
+[30-Nov-2020 13:19:12 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'admin1'@'desktop-ro59lcj.lan' (using password: NO) in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[30-Nov-2020 13:30:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at W:\domains\webmn2\wp-config.php:18) in W:\domains\webmn2\wp-includes\http.php on line 492
+[30-Nov-2020 13:30:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at W:\domains\webmn2\wp-config.php:18) in W:\domains\webmn2\wp-includes\http.php on line 493
+[30-Nov-2020 13:30:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at W:\domains\webmn2\wp-config.php:18) in W:\domains\webmn2\wp-admin\admin-ajax.php on line 27
+[30-Nov-2020 13:30:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at W:\domains\webmn2\wp-config.php:18) in W:\domains\webmn2\wp-admin\admin-ajax.php on line 28
+[30-Nov-2020 13:30:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at W:\domains\webmn2\wp-config.php:18) in W:\domains\webmn2\wp-includes\functions.php on line 6160
+[30-Nov-2020 13:30:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at W:\domains\webmn2\wp-config.php:18) in W:\domains\webmn2\wp-includes\functions.php on line 6274
+[30-Nov-2020 13:30:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at W:\domains\webmn2\wp-config.php:18) in W:\domains\webmn2\wp-admin\includes\misc.php on line 1310
+[30-Nov-2020 16:09:01 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[30-Nov-2020 16:09:01 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[30-Nov-2020 16:09:12 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[30-Nov-2020 16:09:12 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[30-Nov-2020 16:09:20 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[30-Nov-2020 16:09:20 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[30-Nov-2020 16:10:01 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[30-Nov-2020 16:10:01 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[30-Nov-2020 16:11:01 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[30-Nov-2020 16:11:01 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[30-Nov-2020 16:11:20 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[30-Nov-2020 16:11:20 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[30-Nov-2020 16:12:01 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[30-Nov-2020 16:12:01 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[30-Nov-2020 16:13:01 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[30-Nov-2020 16:13:01 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[30-Nov-2020 16:13:21 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[30-Nov-2020 16:13:21 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[30-Nov-2020 16:13:55 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[30-Nov-2020 16:13:55 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[30-Nov-2020 16:14:02 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[30-Nov-2020 16:14:02 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[30-Nov-2020 17:18:43 UTC] [Loco.warning] "Falling back to source extraction because webmeridian.pot is missing" in src/error/AdminNotices.php:93
+[30-Nov-2020 17:18:44 UTC] [Loco.warning] "41 files over 100 KB have been skipped. (Largest is 1.51 MB). Check all strings are present before saving." in src/error/AdminNotices.php:93
+[30-Nov-2020 17:19:32 UTC] [Loco.debug] "File modification is disallowed by your WordPress config" in src/error/AdminNotices.php:115
+[30-Nov-2020 17:19:32 UTC] [Loco.warning] "Failed to create backup file in "language". Check file permissions or disable backups" in src/error/AdminNotices.php:93
+[30-Nov-2020 17:19:39 UTC] [Loco.debug] "File modification is disallowed by your WordPress config" in src/error/AdminNotices.php:115
+[30-Nov-2020 17:19:39 UTC] [Loco.warning] "Failed to create backup file in "language". Check file permissions or disable backups" in src/error/AdminNotices.php:93
+[30-Nov-2020 17:19:57 UTC] [Loco.warning] "Falling back to source extraction because webmeridian.pot is missing" in src/error/AdminNotices.php:93
+[30-Nov-2020 17:19:58 UTC] [Loco.warning] "41 files over 100 KB have been skipped. (Largest is 1.51 MB). Check all strings are present before saving." in src/error/AdminNotices.php:93
+[30-Nov-2020 17:20:01 UTC] [Loco.debug] "File modification is disallowed by your WordPress config" in src/error/AdminNotices.php:115
+[30-Nov-2020 17:20:01 UTC] [Loco.warning] "Failed to create backup file in "language". Check file permissions or disable backups" in src/error/AdminNotices.php:93
+[01-Dec-2020 13:05:55 UTC] PHP Fatal error:  Uncaught UnexpectedValueException: The requested language "de" defined in "qtranslate-edit-language" is not enabled! in W:\domains\webmn2\wp-content\plugins\qtranslate-xt-master\admin\qtx_admin_utils.php:214
+Stack trace:
+#0 W:\domains\webmn2\wp-content\plugins\qtranslate-xt-master\admin\qtx_admin.php(90): qtranxf_getLanguageEdit()
+#1 W:\domains\webmn2\wp-includes\class-wp-hook.php(287): qtranxf_collect_translations_posted('')
+#2 W:\domains\webmn2\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\webmn2\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 W:\domains\webmn2\wp-settings.php(409): do_action('plugins_loaded')
+#5 W:\domains\webmn2\wp-config.php(39): require_once('W:\\domains\\webm...')
+#6 W:\domains\webmn2\wp-load.php(37): require_once('W:\\domains\\webm...')
+#7 W:\domains\webmn2\wp-admin\admin-ajax.php(22): require_once('W:\\domains\\webm...')
+#8 {main}
+  thrown in W:\domains\webmn2\wp-content\plugins\qtranslate-xt-master\admin\qtx_admin_utils.php on line 214
+[01-Dec-2020 13:05:56 UTC] PHP Fatal error:  Uncaught UnexpectedValueException: The requested language "de" defined in "qtranslate-edit-language" is not enabled! in W:\domains\webmn2\wp-content\plugins\qtranslate-xt-master\admin\qtx_admin_utils.php:214
+Stack trace:
+#0 W:\domains\webmn2\wp-content\plugins\qtranslate-xt-master\admin\qtx_admin.php(90): qtranxf_getLanguageEdit()
+#1 W:\domains\webmn2\wp-includes\class-wp-hook.php(287): qtranxf_collect_translations_posted('')
+#2 W:\domains\webmn2\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 W:\domains\webmn2\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 W:\domains\webmn2\wp-settings.php(409): do_action('plugins_loaded')
+#5 W:\domains\webmn2\wp-config.php(39): require_once('W:\\domains\\webm...')
+#6 W:\domains\webmn2\wp-load.php(37): require_once('W:\\domains\\webm...')
+#7 W:\domains\webmn2\wp-admin\admin.php(34): require_once('W:\\domains\\webm...')
+#8 W:\domains\webmn2\wp-admin\post.php(12): require_once('W:\\domains\\webm...')
+#9 {main}
+  thrown in W:\domains\webmn2\wp-content\plugins\qtranslate-xt-master\admin\qtx_admin_utils.php on line 214
+[01-Dec-2020 13:14:40 UTC] PHP Notice:  Array to string conversion in W:\domains\webmn2\wp-includes\class-wp-ajax-response.php on line 124
+[01-Dec-2020 13:14:50 UTC] PHP Notice:  Array to string conversion in W:\domains\webmn2\wp-includes\class-wp-ajax-response.php on line 124
+[01-Dec-2020 13:15:00 UTC] PHP Notice:  Array to string conversion in W:\domains\webmn2\wp-includes\class-wp-ajax-response.php on line 124
+[01-Dec-2020 13:15:06 UTC] PHP Notice:  Array to string conversion in W:\domains\webmn2\wp-includes\class-wp-ajax-response.php on line 124
+[01-Dec-2020 13:15:16 UTC] PHP Notice:  Array to string conversion in W:\domains\webmn2\wp-includes\class-wp-ajax-response.php on line 124
+[01-Dec-2020 14:59:36 UTC] [Loco.warning] "Falling back to source extraction because webmeridian.pot is missing" in src/error/AdminNotices.php:93
+[01-Dec-2020 14:59:37 UTC] [Loco.warning] "41 files over 100 KB have been skipped. (Largest is 1.51 MB). Check all strings are present before saving." in src/error/AdminNotices.php:93
+[01-Dec-2020 16:02:31 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[01-Dec-2020 16:02:31 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[01-Dec-2020 16:02:45 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[01-Dec-2020 16:02:45 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[01-Dec-2020 16:03:32 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[01-Dec-2020 16:03:32 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[01-Dec-2020 16:05:21 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[01-Dec-2020 16:05:21 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in W:\domains\webmn2\wp-includes\wp-db.php on line 1635
+[01-Dec-2020 16:11:41 UTC] PHP Notice:  Undefined variable: taxonomy in W:\domains\webmn2\wp-content\themes\webmeridian\inc\cpt.php on line 87
+[01-Dec-2020 16:12:42 UTC] PHP Notice:  Undefined variable: taxonomy in W:\domains\webmn2\wp-content\themes\webmeridian\inc\cpt.php on line 87
+[01-Dec-2020 16:13:25 UTC] PHP Notice:  Undefined variable: taxonomy in W:\domains\webmn2\wp-content\themes\webmeridian\inc\cpt.php on line 87
+[01-Dec-2020 16:13:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at W:\domains\webmn2\wp-content\themes\webmeridian\inc\cpt.php:87) in W:\domains\webmn2\wp-includes\functions.php on line 6274
+[01-Dec-2020 16:13:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at W:\domains\webmn2\wp-content\themes\webmeridian\inc\cpt.php:87) in W:\domains\webmn2\wp-admin\includes\misc.php on line 1310
+[01-Dec-2020 16:13:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at W:\domains\webmn2\wp-content\themes\webmeridian\inc\cpt.php:87) in W:\domains\webmn2\wp-admin\admin-header.php on line 9
+[01-Dec-2020 16:13:26 UTC] PHP Notice:  Undefined variable: taxonomy in W:\domains\webmn2\wp-content\themes\webmeridian\inc\cpt.php on line 87
+[01-Dec-2020 16:14:26 UTC] PHP Notice:  Undefined variable: taxonomy in W:\domains\webmn2\wp-content\themes\webmeridian\inc\cpt.php on line 87
+[01-Dec-2020 16:16:26 UTC] PHP Notice:  Undefined variable: taxonomy in W:\domains\webmn2\wp-content\themes\webmeridian\inc\cpt.php on line 87
+[01-Dec-2020 16:34:22 UTC] PHP Notice:  Constant ACF_QTRANSLATE_PLUGIN already defined in W:\domains\webmn2\wp-content\plugins\acf-qtranslate-master\acf-qtranslate.php on line 13
+[01-Dec-2020 16:34:22 UTC] PHP Notice:  Constant ACF_QTRANSLATE_PLUGIN_DIR already defined in W:\domains\webmn2\wp-content\plugins\acf-qtranslate-master\acf-qtranslate.php on line 14
+[01-Dec-2020 16:34:22 UTC] PHP Notice:  Constant ACF_QTRANSLATE_PLUGIN already defined in W:\domains\webmn2\wp-content\plugins\qtranslate-xt-master\modules\acf\acf.php on line 9
+[01-Dec-2020 16:34:22 UTC] PHP Notice:  Constant ACF_QTRANSLATE_PLUGIN_DIR already defined in W:\domains\webmn2\wp-content\plugins\qtranslate-xt-master\modules\acf\acf.php on line 10
+[01-Dec-2020 16:34:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at W:\domains\webmn2\wp-content\plugins\qtranslate-xt-master\modules\acf\acf.php:9) in W:\domains\webmn2\wp-includes\functions.php on line 6274
+[01-Dec-2020 16:34:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at W:\domains\webmn2\wp-content\plugins\qtranslate-xt-master\modules\acf\acf.php:9) in W:\domains\webmn2\wp-admin\includes\misc.php on line 1310
+[01-Dec-2020 16:34:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at W:\domains\webmn2\wp-content\plugins\qtranslate-xt-master\modules\acf\acf.php:9) in W:\domains\webmn2\wp-admin\admin-header.php on line 9
+[01-Dec-2020 16:34:56 UTC] PHP Notice:  Constant ACF_QTRANSLATE_PLUGIN already defined in W:\domains\webmn2\wp-content\plugins\qtranslate-xt-master\modules\acf\acf.php on line 9
+[01-Dec-2020 16:34:56 UTC] PHP Notice:  Constant ACF_QTRANSLATE_PLUGIN_DIR already defined in W:\domains\webmn2\wp-content\plugins\qtranslate-xt-master\modules\acf\acf.php on line 10
+[01-Dec-2020 16:34:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at W:\domains\webmn2\wp-content\plugins\qtranslate-xt-master\modules\acf\acf.php:9) in W:\domains\webmn2\wp-includes\functions.php on line 6274
+[01-Dec-2020 16:34:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at W:\domains\webmn2\wp-content\plugins\qtranslate-xt-master\modules\acf\acf.php:9) in W:\domains\webmn2\wp-admin\includes\misc.php on line 1310
+[01-Dec-2020 16:41:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'acf_qtranslate_acf_5_image' does not have a method 'wp_prepare_attachment_for_js' in W:\domains\webmn2\wp-includes\class-wp-hook.php on line 287
+[01-Dec-2020 16:41:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'acf_qtranslate_acf_5_image' does not have a method 'wp_prepare_attachment_for_js' in W:\domains\webmn2\wp-includes\class-wp-hook.php on line 287
+[01-Dec-2020 16:41:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'acf_qtranslate_acf_5_image' does not have a method 'wp_prepare_attachment_for_js' in W:\domains\webmn2\wp-includes\class-wp-hook.php on line 287
+[01-Dec-2020 16:41:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'acf_qtranslate_acf_5_image' does not have a method 'wp_prepare_attachment_for_js' in W:\domains\webmn2\wp-includes\class-wp-hook.php on line 287
+[01-Dec-2020 16:41:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'acf_qtranslate_acf_5_image' does not have a method 'wp_prepare_attachment_for_js' in W:\domains\webmn2\wp-includes\class-wp-hook.php on line 287
+[01-Dec-2020 16:41:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'acf_qtranslate_acf_5_image' does not have a method 'wp_prepare_attachment_for_js' in W:\domains\webmn2\wp-includes\class-wp-hook.php on line 287
+[01-Dec-2020 16:41:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'acf_qtranslate_acf_5_image' does not have a method 'wp_prepare_attachment_for_js' in W:\domains\webmn2\wp-includes\class-wp-hook.php on line 287
+[01-Dec-2020 16:41:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'acf_qtranslate_acf_5_image' does not have a method 'wp_prepare_attachment_for_js' in W:\domains\webmn2\wp-includes\class-wp-hook.php on line 287
+[01-Dec-2020 16:41:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'acf_qtranslate_acf_5_image' does not have a method 'wp_prepare_attachment_for_js' in W:\domains\webmn2\wp-includes\class-wp-hook.php on line 287
+[01-Dec-2020 16:41:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'acf_qtranslate_acf_5_image' does not have a method 'wp_prepare_attachment_for_js' in W:\domains\webmn2\wp-includes\class-wp-hook.php on line 287
+[01-Dec-2020 16:41:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'acf_qtranslate_acf_5_image' does not have a method 'wp_prepare_attachment_for_js' in W:\domains\webmn2\wp-includes\class-wp-hook.php on line 287
+[01-Dec-2020 16:41:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'acf_qtranslate_acf_5_image' does not have a method 'wp_prepare_attachment_for_js' in W:\domains\webmn2\wp-includes\class-wp-hook.php on line 287
+[01-Dec-2020 16:41:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'acf_qtranslate_acf_5_image' does not have a method 'wp_prepare_attachment_for_js' in W:\domains\webmn2\wp-includes\class-wp-hook.php on line 287
+[01-Dec-2020 16:41:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'acf_qtranslate_acf_5_image' does not have a method 'wp_prepare_attachment_for_js' in W:\domains\webmn2\wp-includes\class-wp-hook.php on line 287
+[01-Dec-2020 16:41:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'acf_qtranslate_acf_5_image' does not have a method 'wp_prepare_attachment_for_js' in W:\domains\webmn2\wp-includes\class-wp-hook.php on line 287
+[01-Dec-2020 16:41:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'acf_qtranslate_acf_5_image' does not have a method 'wp_prepare_attachment_for_js' in W:\domains\webmn2\wp-includes\class-wp-hook.php on line 287
+[01-Dec-2020 16:41:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'acf_qtranslate_acf_5_image' does not have a method 'wp_prepare_attachment_for_js' in W:\domains\webmn2\wp-includes\class-wp-hook.php on line 287
+[01-Dec-2020 16:41:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'acf_qtranslate_acf_5_image' does not have a method 'wp_prepare_attachment_for_js' in W:\domains\webmn2\wp-includes\class-wp-hook.php on line 287
+[01-Dec-2020 16:41:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'acf_qtranslate_acf_5_image' does not have a method 'wp_prepare_attachment_for_js' in W:\domains\webmn2\wp-includes\class-wp-hook.php on line 287
+[01-Dec-2020 16:41:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'acf_qtranslate_acf_5_image' does not have a method 'wp_prepare_attachment_for_js' in W:\domains\webmn2\wp-includes\class-wp-hook.php on line 287
+[01-Dec-2020 16:41:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'acf_qtranslate_acf_5_image' does not have a method 'wp_prepare_attachment_for_js' in W:\domains\webmn2\wp-includes\class-wp-hook.php on line 287
+[01-Dec-2020 16:41:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'acf_qtranslate_acf_5_image' does not have a method 'wp_prepare_attachment_for_js' in W:\domains\webmn2\wp-includes\class-wp-hook.php on line 287
+[02-Dec-2020 09:46:59 UTC] PHP Notice:  Undefined index: path in /home/user/Work/our_site/wp-webmeridian/wp-content/plugins/disable-wordpress-updates/disable-updates.php on line 242
+[02-Dec-2020 09:46:59 UTC] PHP Stack trace:
+[02-Dec-2020 09:46:59 UTC] PHP   1. {main}() /home/user/Work/our_site/wp-webmeridian/wp-admin/admin-ajax.php:0
+[02-Dec-2020 09:46:59 UTC] PHP   2. do_action() /home/user/Work/our_site/wp-webmeridian/wp-admin/admin-ajax.php:176
+[02-Dec-2020 09:46:59 UTC] PHP   3. WP_Hook->do_action() /home/user/Work/our_site/wp-webmeridian/wp-includes/plugin.php:478
+[02-Dec-2020 09:46:59 UTC] PHP   4. WP_Hook->apply_filters() /home/user/Work/our_site/wp-webmeridian/wp-includes/class-wp-hook.php:311
+[02-Dec-2020 09:46:59 UTC] PHP   5. wp_ajax_health_check_dotorg_communication() /home/user/Work/our_site/wp-webmeridian/wp-includes/class-wp-hook.php:287
+[02-Dec-2020 09:46:59 UTC] PHP   6. WP_Site_Health->get_test_dotorg_communication() /home/user/Work/our_site/wp-webmeridian/wp-admin/includes/ajax-actions.php:5158
+[02-Dec-2020 09:46:59 UTC] PHP   7. wp_remote_get() /home/user/Work/our_site/wp-webmeridian/wp-admin/includes/class-wp-site-health.php:1373
+[02-Dec-2020 09:46:59 UTC] PHP   8. WP_Http->get() /home/user/Work/our_site/wp-webmeridian/wp-includes/http.php:162
+[02-Dec-2020 09:46:59 UTC] PHP   9. WP_Http->request() /home/user/Work/our_site/wp-webmeridian/wp-includes/class-http.php:626
+[02-Dec-2020 09:46:59 UTC] PHP  10. apply_filters() /home/user/Work/our_site/wp-webmeridian/wp-includes/class-http.php:257
+[02-Dec-2020 09:46:59 UTC] PHP  11. WP_Hook->apply_filters() /home/user/Work/our_site/wp-webmeridian/wp-includes/plugin.php:206
+[02-Dec-2020 09:46:59 UTC] PHP  12. OS_Disable_WordPress_Updates->block_request() /home/user/Work/our_site/wp-webmeridian/wp-includes/class-wp-hook.php:287
+[02-Dec-2020 09:46:59 UTC] PHP Notice:  Undefined index: path in /home/user/Work/our_site/wp-webmeridian/wp-content/plugins/disable-wordpress-updates/disable-updates.php on line 242
+[02-Dec-2020 09:46:59 UTC] PHP Stack trace:
+[02-Dec-2020 09:46:59 UTC] PHP   1. {main}() /home/user/Work/our_site/wp-webmeridian/wp-admin/admin-ajax.php:0
+[02-Dec-2020 09:46:59 UTC] PHP   2. do_action() /home/user/Work/our_site/wp-webmeridian/wp-admin/admin-ajax.php:176
+[02-Dec-2020 09:46:59 UTC] PHP   3. WP_Hook->do_action() /home/user/Work/our_site/wp-webmeridian/wp-includes/plugin.php:478
+[02-Dec-2020 09:46:59 UTC] PHP   4. WP_Hook->apply_filters() /home/user/Work/our_site/wp-webmeridian/wp-includes/class-wp-hook.php:311
+[02-Dec-2020 09:46:59 UTC] PHP   5. wp_ajax_health_check_dotorg_communication() /home/user/Work/our_site/wp-webmeridian/wp-includes/class-wp-hook.php:287
+[02-Dec-2020 09:46:59 UTC] PHP   6. WP_Site_Health->get_test_dotorg_communication() /home/user/Work/our_site/wp-webmeridian/wp-admin/includes/ajax-actions.php:5158
+[02-Dec-2020 09:46:59 UTC] PHP   7. wp_remote_get() /home/user/Work/our_site/wp-webmeridian/wp-admin/includes/class-wp-site-health.php:1373
+[02-Dec-2020 09:46:59 UTC] PHP   8. WP_Http->get() /home/user/Work/our_site/wp-webmeridian/wp-includes/http.php:162
+[02-Dec-2020 09:46:59 UTC] PHP   9. WP_Http->request() /home/user/Work/our_site/wp-webmeridian/wp-includes/class-http.php:626
+[02-Dec-2020 09:46:59 UTC] PHP  10. apply_filters() /home/user/Work/our_site/wp-webmeridian/wp-includes/class-http.php:257
+[02-Dec-2020 09:46:59 UTC] PHP  11. WP_Hook->apply_filters() /home/user/Work/our_site/wp-webmeridian/wp-includes/plugin.php:206
+[02-Dec-2020 09:46:59 UTC] PHP  12. OS_Disable_WordPress_Updates->block_request() /home/user/Work/our_site/wp-webmeridian/wp-includes/class-wp-hook.php:287
+[02-Dec-2020 09:46:59 UTC] PHP Notice:  Undefined index: path in /home/user/Work/our_site/wp-webmeridian/wp-content/plugins/disable-wordpress-updates/disable-updates.php on line 242
+[02-Dec-2020 09:46:59 UTC] PHP Stack trace:
+[02-Dec-2020 09:46:59 UTC] PHP   1. {main}() /home/user/Work/our_site/wp-webmeridian/wp-admin/admin-ajax.php:0
+[02-Dec-2020 09:46:59 UTC] PHP   2. do_action() /home/user/Work/our_site/wp-webmeridian/wp-admin/admin-ajax.php:176
+[02-Dec-2020 09:46:59 UTC] PHP   3. WP_Hook->do_action() /home/user/Work/our_site/wp-webmeridian/wp-includes/plugin.php:478
+[02-Dec-2020 09:46:59 UTC] PHP   4. WP_Hook->apply_filters() /home/user/Work/our_site/wp-webmeridian/wp-includes/class-wp-hook.php:311
+[02-Dec-2020 09:46:59 UTC] PHP   5. wp_ajax_health_check_dotorg_communication() /home/user/Work/our_site/wp-webmeridian/wp-includes/class-wp-hook.php:287
+[02-Dec-2020 09:46:59 UTC] PHP   6. WP_Site_Health->get_test_dotorg_communication() /home/user/Work/our_site/wp-webmeridian/wp-admin/includes/ajax-actions.php:5158
+[02-Dec-2020 09:46:59 UTC] PHP   7. wp_remote_get() /home/user/Work/our_site/wp-webmeridian/wp-admin/includes/class-wp-site-health.php:1373
+[02-Dec-2020 09:46:59 UTC] PHP   8. WP_Http->get() /home/user/Work/our_site/wp-webmeridian/wp-includes/http.php:162
+[02-Dec-2020 09:46:59 UTC] PHP   9. WP_Http->request() /home/user/Work/our_site/wp-webmeridian/wp-includes/class-http.php:626
+[02-Dec-2020 09:46:59 UTC] PHP  10. apply_filters() /home/user/Work/our_site/wp-webmeridian/wp-includes/class-http.php:257
+[02-Dec-2020 09:46:59 UTC] PHP  11. WP_Hook->apply_filters() /home/user/Work/our_site/wp-webmeridian/wp-includes/plugin.php:206
+[02-Dec-2020 09:46:59 UTC] PHP  12. OS_Disable_WordPress_Updates->block_request() /home/user/Work/our_site/wp-webmeridian/wp-includes/class-wp-hook.php:287
+[02-Dec-2020 09:46:59 UTC] PHP Notice:  Undefined index: path in /home/user/Work/our_site/wp-webmeridian/wp-content/plugins/disable-wordpress-updates/disable-updates.php on line 242
+[02-Dec-2020 09:46:59 UTC] PHP Stack trace:
+[02-Dec-2020 09:46:59 UTC] PHP   1. {main}() /home/user/Work/our_site/wp-webmeridian/wp-admin/admin-ajax.php:0
+[02-Dec-2020 09:46:59 UTC] PHP   2. do_action() /home/user/Work/our_site/wp-webmeridian/wp-admin/admin-ajax.php:176
+[02-Dec-2020 09:46:59 UTC] PHP   3. WP_Hook->do_action() /home/user/Work/our_site/wp-webmeridian/wp-includes/plugin.php:478
+[02-Dec-2020 09:46:59 UTC] PHP   4. WP_Hook->apply_filters() /home/user/Work/our_site/wp-webmeridian/wp-includes/class-wp-hook.php:311
+[02-Dec-2020 09:46:59 UTC] PHP   5. wp_ajax_health_check_dotorg_communication() /home/user/Work/our_site/wp-webmeridian/wp-includes/class-wp-hook.php:287
+[02-Dec-2020 09:46:59 UTC] PHP   6. WP_Site_Health->get_test_dotorg_communication() /home/user/Work/our_site/wp-webmeridian/wp-admin/includes/ajax-actions.php:5158
+[02-Dec-2020 09:46:59 UTC] PHP   7. wp_remote_get() /home/user/Work/our_site/wp-webmeridian/wp-admin/includes/class-wp-site-health.php:1373
+[02-Dec-2020 09:46:59 UTC] PHP   8. WP_Http->get() /home/user/Work/our_site/wp-webmeridian/wp-includes/http.php:162
+[02-Dec-2020 09:46:59 UTC] PHP   9. WP_Http->request() /home/user/Work/our_site/wp-webmeridian/wp-includes/class-http.php:626
+[02-Dec-2020 09:46:59 UTC] PHP  10. apply_filters() /home/user/Work/our_site/wp-webmeridian/wp-includes/class-http.php:257
+[02-Dec-2020 09:46:59 UTC] PHP  11. WP_Hook->apply_filters() /home/user/Work/our_site/wp-webmeridian/wp-includes/plugin.php:206
+[02-Dec-2020 09:46:59 UTC] PHP  12. OS_Disable_WordPress_Updates->block_request() /home/user/Work/our_site/wp-webmeridian/wp-includes/class-wp-hook.php:287
+[02-Dec-2020 16:29:32 UTC] PHP Notice:  Undefined index: mail2 in D:\WWW\domains\webmn2\wp-content\plugins\weforms\includes\importer\class-importer-cf7.php on line 285
+[02-Dec-2020 16:29:32 UTC] PHP Deprecated:  <code>id</code> property of a <code>WPCF7_ContactForm</code> object is <strong>no longer accessible</strong>. Use <code>id()</code> method instead. in D:\WWW\domains\webmn2\wp-content\plugins\contact-form-7\includes\contact-form.php on line 181
+[02-Dec-2020 16:29:32 UTC] PHP Deprecated:  <code>id</code> property of a <code>WPCF7_ContactForm</code> object is <strong>no longer accessible</strong>. Use <code>id()</code> method instead. in D:\WWW\domains\webmn2\wp-content\plugins\contact-form-7\includes\contact-form.php on line 181
+[02-Dec-2020 16:29:32 UTC] PHP Notice:  Undefined index: mail2 in D:\WWW\domains\webmn2\wp-content\plugins\weforms\includes\importer\class-importer-cf7.php on line 285
+[02-Dec-2020 16:29:32 UTC] PHP Notice:  Undefined index: mail2 in D:\WWW\domains\webmn2\wp-content\plugins\weforms\includes\importer\class-importer-cf7.php on line 285
+[02-Dec-2020 16:29:32 UTC] PHP Notice:  Undefined index: mail2 in D:\WWW\domains\webmn2\wp-content\plugins\weforms\includes\importer\class-importer-cf7.php on line 285
+[02-Dec-2020 16:29:32 UTC] PHP Deprecated:  <code>id</code> property of a <code>WPCF7_ContactForm</code> object is <strong>no longer accessible</strong>. Use <code>id()</code> method instead. in D:\WWW\domains\webmn2\wp-content\plugins\contact-form-7\includes\contact-form.php on line 181
+[02-Dec-2020 16:29:32 UTC] PHP Deprecated:  <code>id</code> property of a <code>WPCF7_ContactForm</code> object is <strong>no longer accessible</strong>. Use <code>id()</code> method instead. in D:\WWW\domains\webmn2\wp-content\plugins\contact-form-7\includes\contact-form.php on line 181
+[02-Dec-2020 17:11:59 UTC] PHP Notice:  Undefined index: pipe in D:\WWW\domains\webmn2\wp-content\plugins\cf7-hubspot\templates\fields-mapping.php on line 693
+[02-Dec-2020 17:12:11 UTC] PHP Notice:  Undefined index: primary_key in D:\WWW\domains\webmn2\wp-content\plugins\cf7-hubspot\templates\fields-mapping.php on line 491
+[02-Dec-2020 17:12:11 UTC] PHP Notice:  Undefined index: user in D:\WWW\domains\webmn2\wp-content\plugins\cf7-hubspot\templates\fields-mapping.php on line 630
+[02-Dec-2020 17:12:19 UTC] PHP Notice:  Undefined index: user in D:\WWW\domains\webmn2\wp-content\plugins\cf7-hubspot\templates\fields-mapping.php on line 630
+[02-Dec-2020 17:13:58 UTC] PHP Notice:  Undefined index: primary_key in D:\WWW\domains\webmn2\wp-content\plugins\cf7-hubspot\templates\fields-mapping.php on line 491
+[02-Dec-2020 17:13:58 UTC] PHP Notice:  Undefined index: user in D:\WWW\domains\webmn2\wp-content\plugins\cf7-hubspot\templates\fields-mapping.php on line 630

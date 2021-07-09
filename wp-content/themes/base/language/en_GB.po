@@ -1,0 +1,669 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: webmeridian\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-01 14:59+0000\n"
+"PO-Revision-Date: 2020-12-01 14:59+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.6; wp-5.5.3"
+
+#: comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:19
+msgid "(Edit)"
+msgstr ""
+
+#: comments.php:20
+msgid "at"
+msgstr ""
+
+#: comments.php:20
+msgid "said:"
+msgstr ""
+
+#: comments.php:22
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:29
+msgid "Reply"
+msgstr ""
+
+#: comments.php:46
+msgid "No Responses"
+msgstr ""
+
+#: comments.php:46
+msgid "One Response"
+msgstr ""
+
+#: comments.php:46
+msgid "% Responses"
+msgstr ""
+
+#: comments.php:46
+msgid "to"
+msgstr ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#: header.php:65
+msgid "menu"
+msgstr ""
+
+#: header.php:75
+msgid "close"
+msgstr ""
+
+#: page.php:7
+msgid "Hello 111"
+msgstr ""
+
+#: searchform.php:1
+msgid "Введите запрос для поиска"
+msgstr ""
+
+#: searchform.php:8
+msgid "Найти"
+msgstr ""
+
+#: inc/ajax.php:16
+msgid "Ошибка при загрузке файла!"
+msgstr ""
+
+#: inc/ajax.php:36
+msgid "Картинка назначена."
+msgstr ""
+
+#: inc/ajax.php:38
+msgid "Картинка удачно изменена."
+msgstr ""
+
+#: inc/cpt.php:10
+msgctxt "Post type general name"
+msgid "Our Employers"
+msgstr ""
+
+#: inc/cpt.php:11
+msgctxt "Post type singular name"
+msgid "Our Employers"
+msgstr ""
+
+#: inc/cpt.php:12
+msgctxt "Admin Menu text"
+msgid "Our Employers"
+msgstr ""
+
+#: inc/cpt.php:13
+msgctxt "Add New on Toolbar"
+msgid "Our Employers"
+msgstr ""
+
+#: inc/cpt.php:14 inc/cpt.php:15 inc/cpt.php:69 inc/cpt.php:70 inc/cpt.php:124
+#: inc/cpt.php:125 inc/cpt.php:181 inc/cpt.php:182
+msgid "Add New"
+msgstr ""
+
+#: inc/cpt.php:16
+msgid "New Our Employer"
+msgstr ""
+
+#: inc/cpt.php:17
+msgid "Edit Our Employer"
+msgstr ""
+
+#: inc/cpt.php:18
+msgid "View Our Employer"
+msgstr ""
+
+#: inc/cpt.php:19
+msgid "All Our Employers"
+msgstr ""
+
+#: inc/cpt.php:20
+msgid "Search Our Employers"
+msgstr ""
+
+#: inc/cpt.php:21
+msgid "Parent Our Employer:"
+msgstr ""
+
+#: inc/cpt.php:22
+msgid "No Our Employer found."
+msgstr ""
+
+#: inc/cpt.php:23
+msgid "No Our Employer found in Trash."
+msgstr ""
+
+#: inc/cpt.php:24 inc/cpt.php:79 inc/cpt.php:134 inc/cpt.php:191
+msgctxt ""
+"Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "Cover image"
+msgstr ""
+
+#: inc/cpt.php:25 inc/cpt.php:80 inc/cpt.php:135 inc/cpt.php:192
+msgctxt ""
+"Overrides the “Set featured image” phrase for this post type. Added in 4.3"
+msgid "Set cover image"
+msgstr ""
+
+#: inc/cpt.php:26 inc/cpt.php:81 inc/cpt.php:136 inc/cpt.php:193
+msgctxt ""
+"Overrides the “Remove featured image” phrase for this post type. Added in 4.3"
+msgid "Remove cover image"
+msgstr ""
+
+#: inc/cpt.php:27 inc/cpt.php:82 inc/cpt.php:137 inc/cpt.php:194
+msgctxt ""
+"Overrides the “Use as featured image” phrase for this post type. Added in 4.3"
+msgid "Use as cover image"
+msgstr ""
+
+#: inc/cpt.php:28
+msgctxt ""
+"The post type archive label used in nav menus. Default “Post Archives”. "
+"Added in 4.4"
+msgid "Our Employers archives"
+msgstr ""
+
+#: inc/cpt.php:29
+msgctxt ""
+"Overrides the “Insert into post”/”Insert into page” phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into Our Employer"
+msgstr ""
+
+#: inc/cpt.php:30
+msgctxt ""
+"Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used "
+"when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this Our Employer"
+msgstr ""
+
+#: inc/cpt.php:31
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter Our Employers list"
+msgstr ""
+
+#: inc/cpt.php:32
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "Our Employers list navigation"
+msgstr ""
+
+#: inc/cpt.php:33
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Our Employers list"
+msgstr ""
+
+#: inc/cpt.php:65
+msgctxt "Post type general name"
+msgid "Our Tech"
+msgstr ""
+
+#: inc/cpt.php:66
+msgctxt "Post type singular name"
+msgid "Our Tech"
+msgstr ""
+
+#: inc/cpt.php:67
+msgctxt "Admin Menu text"
+msgid "Our Tech"
+msgstr ""
+
+#: inc/cpt.php:68
+msgctxt "Add New on Toolbar"
+msgid "Our Tech"
+msgstr ""
+
+#: inc/cpt.php:71
+msgid "New Our Tech"
+msgstr ""
+
+#: inc/cpt.php:72
+msgid "Edit Our Tech"
+msgstr ""
+
+#: inc/cpt.php:73
+msgid "View Our Tech"
+msgstr ""
+
+#: inc/cpt.php:74
+msgid "All Our Tech"
+msgstr ""
+
+#: inc/cpt.php:75
+msgid "Search Our Tech"
+msgstr ""
+
+#: inc/cpt.php:76
+msgid "Parent Our Tech:"
+msgstr ""
+
+#: inc/cpt.php:77
+msgid "No Our Tech found."
+msgstr ""
+
+#: inc/cpt.php:78
+msgid "No Our Tech found in Trash."
+msgstr ""
+
+#: inc/cpt.php:83
+msgctxt ""
+"The post type archive label used in nav menus. Default “Post Archives”. "
+"Added in 4.4"
+msgid "Our Tech archives"
+msgstr ""
+
+#: inc/cpt.php:84
+msgctxt ""
+"Overrides the “Insert into post”/”Insert into page” phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into Our Tech"
+msgstr ""
+
+#: inc/cpt.php:85
+msgctxt ""
+"Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used "
+"when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this Our Tech"
+msgstr ""
+
+#: inc/cpt.php:86
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter Our Tech list"
+msgstr ""
+
+#: inc/cpt.php:87
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "Our Tech list navigation"
+msgstr ""
+
+#: inc/cpt.php:88
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Our Tech list"
+msgstr ""
+
+#: inc/cpt.php:120
+msgctxt "Post type general name"
+msgid "Our Services"
+msgstr ""
+
+#: inc/cpt.php:121
+msgctxt "Post type singular name"
+msgid "Our Services"
+msgstr ""
+
+#: inc/cpt.php:122
+msgctxt "Admin Menu text"
+msgid "Our Services"
+msgstr ""
+
+#: inc/cpt.php:123
+msgctxt "Add New on Toolbar"
+msgid "Our Services"
+msgstr ""
+
+#: inc/cpt.php:126
+msgid "New Our Services"
+msgstr ""
+
+#: inc/cpt.php:127
+msgid "Edit Our Services"
+msgstr ""
+
+#: inc/cpt.php:128
+msgid "View Our Services"
+msgstr ""
+
+#: inc/cpt.php:129
+msgid "All Our Services"
+msgstr ""
+
+#: inc/cpt.php:130
+msgid "Search Our Services"
+msgstr ""
+
+#: inc/cpt.php:131
+msgid "Parent Our Services:"
+msgstr ""
+
+#: inc/cpt.php:132
+msgid "No Our Services found."
+msgstr ""
+
+#: inc/cpt.php:133
+msgid "No Our Services found in Trash."
+msgstr ""
+
+#: inc/cpt.php:138
+msgctxt ""
+"The post type archive label used in nav menus. Default “Post Archives”. "
+"Added in 4.4"
+msgid "Our Services archives"
+msgstr ""
+
+#: inc/cpt.php:139
+msgctxt ""
+"Overrides the “Insert into post”/”Insert into page” phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into Our Services"
+msgstr ""
+
+#: inc/cpt.php:140
+msgctxt ""
+"Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used "
+"when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this Our Services"
+msgstr ""
+
+#: inc/cpt.php:141
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter Our Services list"
+msgstr ""
+
+#: inc/cpt.php:142
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "Our Services list navigation"
+msgstr ""
+
+#: inc/cpt.php:143
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Our Services list"
+msgstr ""
+
+#: inc/cpt.php:177
+msgctxt "Post type general name"
+msgid "Our Cases"
+msgstr ""
+
+#: inc/cpt.php:178
+msgctxt "Post type singular name"
+msgid "Our Cases"
+msgstr ""
+
+#: inc/cpt.php:179
+msgctxt "Admin Menu text"
+msgid "Our Cases"
+msgstr ""
+
+#: inc/cpt.php:180
+msgctxt "Add New on Toolbar"
+msgid "Our Cases"
+msgstr ""
+
+#: inc/cpt.php:183
+msgid "New Our Cases"
+msgstr ""
+
+#: inc/cpt.php:184
+msgid "Edit Our Cases"
+msgstr ""
+
+#: inc/cpt.php:185
+msgid "View Our Cases"
+msgstr ""
+
+#: inc/cpt.php:186
+msgid "All Our Cases"
+msgstr ""
+
+#: inc/cpt.php:187
+msgid "Search Our Cases"
+msgstr ""
+
+#: inc/cpt.php:188
+msgid "Parent Our Cases:"
+msgstr ""
+
+#: inc/cpt.php:189
+msgid "No Our Cases found."
+msgstr ""
+
+#: inc/cpt.php:190
+msgid "No Our Cases found in Trash."
+msgstr ""
+
+#: inc/cpt.php:195
+msgctxt ""
+"The post type archive label used in nav menus. Default “Post Archives”. "
+"Added in 4.4"
+msgid "Our Cases archives"
+msgstr ""
+
+#: inc/cpt.php:196
+msgctxt ""
+"Overrides the “Insert into post”/”Insert into page” phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into Our Cases"
+msgstr ""
+
+#: inc/cpt.php:197
+msgctxt ""
+"Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used "
+"when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this Our Cases"
+msgstr ""
+
+#: inc/cpt.php:198
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter Our Cases list"
+msgstr ""
+
+#: inc/cpt.php:199
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "Our Cases list navigation"
+msgstr ""
+
+#: inc/cpt.php:200
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Our Cases list"
+msgstr ""
+
+#: inc/default.php:5
+#, php-format
+msgid ""
+"You are blocking access to robots. You must go to your <a href=\"%s\">"
+"Reading</a> settings and uncheck the box for Search Engine Visibility."
+msgstr ""
+
+#: inc/functions_customizer.php:6
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/menus.php:5
+msgid "Header menu"
+msgstr ""
+
+#: inc/menus.php:6
+msgid "Float menu"
+msgstr ""
+
+#: inc/menus.php:7
+msgid "Footer menu 1"
+msgstr ""
+
+#: inc/menus.php:8
+msgid "Footer menu 2"
+msgstr ""
+
+#: inc/menus.php:37
+msgid "Site-Contacts"
+msgstr ""
+
+#: inc/menus.php:42
+msgid "Site-Socials"
+msgstr ""
+
+#: inc/menus.php:47
+msgid "Site-Footer"
+msgstr ""
+
+#. Name of the template
+msgid "Export-CSV"
+msgstr ""
+
+#. Name of the template
+msgid "Export-PDF"
+msgstr ""
+
+#. Name of the template
+msgid "Export-XLS"
+msgstr ""
+
+#: template_page/myacc_export_xls.php:63 template_page/myacc_export_xls.php:65
+msgid "нет"
+msgstr ""
+
+#: template_page/myacc_export_xls.php:63 template_page/myacc_export_xls.php:65
+msgid "да"
+msgstr ""
+
+#. Name of the template
+msgid "Page-Contact"
+msgstr ""
+
+#. Name of the template
+msgid "Page-Flexible simple"
+msgstr ""
+
+#: template_page/page_flexible_1.php:18
+msgid "This page does not contain flexible blocks!"
+msgstr ""
+
+#. Name of the template
+msgid "xxx"
+msgstr ""
+
+#: template_part/block_auth.php:10
+msgid "Введите имя пользователя или адрес электронной почты."
+msgstr ""
+
+#: template_part/block_auth.php:12
+msgid "Такой электронной почты на сайте не существует."
+msgstr ""
+
+#: template_part/block_auth.php:14
+msgid "Пользователь с таким адресом электронной почты не зарегистрирован."
+msgstr ""
+
+#: template_part/block_auth.php:25
+msgid "Ваш новый пароль"
+msgstr ""
+
+#: template_part/block_auth.php:35
+msgid "На ваш адрес электронной почты, отправлен новый пароль."
+msgstr ""
+
+#: template_part/block_auth.php:37
+msgid "К сожалению, письмо с новым паролем не отправлено."
+msgstr ""
+
+#: template_part/block_auth.php:40
+msgid "К сожалению, что-то пошло не так, обновляя ваш аккаунт."
+msgstr ""
+
+#: template_part/block_auth.php:43
+msgid "Менять пароль может не каждый пользователь."
+msgstr ""
+
+#: template_part/block_auth.php:67 template_part/block_auth.php:78
+msgid "Вход"
+msgstr ""
+
+#: template_part/block_auth.php:70 template_part/block_auth.php:98
+#: template_part/block_auth.php:116
+msgid "Регистрация"
+msgstr ""
+
+#: template_part/block_auth.php:73 template_part/block_auth.php:121
+#: template_part/block_auth.php:128
+msgid "Восстановить"
+msgstr ""
+
+#: template_part/block_auth.php:81 template_part/block_auth.php:82
+#: template_part/block_auth.php:101 template_part/block_auth.php:102
+#: template_part/block_auth.php:124 template_part/block_auth.php:125
+msgid "Электронная почта"
+msgstr ""
+
+#: template_part/block_auth.php:85 template_part/block_auth.php:86
+#: template_part/block_auth.php:105 template_part/block_auth.php:106
+msgid "Пароль"
+msgstr ""
+
+#: template_part/block_auth.php:92
+msgid "Войти"
+msgstr ""
+
+#: template_part/block_auth.php:110
+msgid "Роль"
+msgstr ""
+
+#: template_part/blst_4.php:46
+msgid "View Portfolio"
+msgstr ""
+
+#: template_part/list_item.php:12
+msgid "Date"
+msgstr ""
+
+#: template_part/list_item.php:12
+msgid "Author"
+msgstr ""
+
+#: template_part/not_found.php:3
+msgid "Not found"
+msgstr ""
+
+#: template_part/not_found.php:6
+msgid "Sorry, the page has been deleted or renamed!"
+msgstr ""
+
+#. Name of the theme
+#. Author of the theme
+msgid "webmeridian"
+msgstr ""
+
+#. Description of the theme
+msgid "theme for Wordpress"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://webmeridian.org/"
+msgstr ""
