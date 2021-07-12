@@ -83,16 +83,16 @@ class WM_USRTOMC{
 	
 	//===create Audienca===
 	static function wm_create_audience($name, $email, $city, $state, $zip, $country, $from_name, $subject, $language, $permission_reminder){
-		$email     = substr(sanitize_email($email), 0, 100);
-		$name      = substr(sanitize_title($name), 0, 100);
-		$city      = substr(sanitize_title($city), 0, 100);
-		$state     = substr(sanitize_title($state), 0, 100);
-		$zip       = substr(sanitize_text_field($zip), 0, 100);
-		$country   = substr(sanitize_title($country), 0, 100);
-		$from_name = substr(sanitize_title($from_name), 0, 100);
-		$subject   = substr(sanitize_title($subject), 0, 300);
-		$language  = substr(sanitize_title($language), 0, 2);
-		$permission_reminder = substr(sanitize_title($permission_reminder), 0, 500);
+		$email     = substr(sanitize_email($email),     0, 100);
+		$name      = substr(esc_html($name),      0, 100);
+		$city      = substr(esc_html($city),      0, 100);
+		$state     = substr(esc_html($state),     0, 100);
+		$zip       = substr(sanitize_text_field($zip),  0, 100);
+		$country   = substr(esc_html($country),   0, 100);
+		$from_name = substr(esc_html($from_name), 0, 100);
+		$subject   = substr(esc_html($subject),   0, 300);
+		$language  = substr(esc_html($language),  0, 2);
+		$permission_reminder = substr(esc_html($permission_reminder), 0, 500);
 		
 		if(!is_email($email)){
 			$email = '';
