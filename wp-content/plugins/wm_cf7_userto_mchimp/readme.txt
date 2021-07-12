@@ -2,8 +2,8 @@
 Contributors: superpuperlesha
 Donate link: https://example.com/
 Tags: contact form 7, contact form 7 mailchimp, mailchimp forms, mailchimp, mailchimp form
-Requires at least: 4.7
-Tested up to: 5.1
+Requires at least: 3.9
+Tested up to: 5.7
 Stable tag: 1.0.0
 Requires PHP: 7.0
 License: GPLv2 or later
