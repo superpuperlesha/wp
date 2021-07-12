@@ -49,10 +49,10 @@ class WM_CF7USRTOHS{
 	//===add user to hubspot contact===
 	public static function wm_create_user($compid='', $email='', $fname='', $lname='', $phone=''){
 		$compid   = substr(sanitize_title($compid), 0, 100);
-		$email    = substr(sanitize_email($email), 0, 100);
-		$fname    = substr(sanitize_user($fname), 0, 100);
-		$lname    = substr(sanitize_user($lname), 0, 100);
-		$phone    = substr(sanitize_title($phone), 0, 100);
+		$email    = substr(sanitize_email($email),  0, 100);
+		$fname    = substr(sanitize_user($fname),   0, 100);
+		$lname    = substr(sanitize_user($lname),   0, 100);
+		$phone    = substr(sanitize_title($phone),  0, 100);
 		$CompInfo = self::wm_company_name($compid);
 		$CompanyName = substr(esc_html($CompInfo['name'] ?? ''), 0, 100);
 		

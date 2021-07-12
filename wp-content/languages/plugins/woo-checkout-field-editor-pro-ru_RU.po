@@ -1,0 +1,147 @@
+# Translation of Plugins - Checkout Field Editor (Checkout Manager) for WooCommerce - Development (trunk) in Russian
+# This file is distributed under the same license as the Plugins - Checkout Field Editor (Checkout Manager) for WooCommerce - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-05-02 17:51:43+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Checkout Field Editor (Checkout Manager) for WooCommerce - Development (trunk)\n"
+
+#: admin/class-thwcfd-admin.php:77
+msgid "Get Pro"
+msgstr "Получить Про"
+
+#: admin/class-thwcfd-admin.php:64
+msgid "WooCommerce Checkout Field Editor"
+msgstr "Редактор полей на странице оформления заказа WooCommerce"
+
+#. Author of the plugin
+msgid "ThemeHigh"
+msgstr "ThemeHigh"
+
+#: admin/class-thwcfd-admin-form-field.php:46
+msgid "Radio"
+msgstr "Переключатель"
+
+#: admin/class-thwcfd-admin-form-field.php:45
+msgid "Textarea"
+msgstr "Многострочное текстовое поле"
+
+#: admin/class-thwcfd-admin-form-field.php:41
+msgid "Password"
+msgstr "Пароль"
+
+#: admin/class-thwcfd-admin-settings-general.php:79
+msgid "Enabled"
+msgstr "Включено"
+
+#: admin/class-thwcfd-admin-settings-general.php:78
+msgid "Required"
+msgstr "Обязательное"
+
+#: admin/class-thwcfd-admin-form-field.php:43
+msgid "Phone"
+msgstr "Телефон"
+
+#: admin/class-thwcfd-admin-form-field.php:42
+msgid "Email"
+msgstr "Email"
+
+#: admin/class-thwcfd-admin-settings-general.php:77
+msgid "Validations"
+msgstr "Проверка"
+
+#: admin/class-thwcfd-admin-form-field.php:399
+msgid "Options"
+msgstr "Параметры"
+
+#: admin/class-thwcfd-admin-settings-general.php:76
+msgid "Placeholder"
+msgstr "Подсказка"
+
+#: admin/class-thwcfd-admin-settings-general.php:75
+msgid "Label"
+msgstr "Ярлык"
+
+#: admin/class-thwcfd-admin-settings-general.php:73
+msgid "Name"
+msgstr "Название"
+
+#: admin/class-thwcfd-admin-settings-general.php:74
+msgid "Type"
+msgstr "Тип"
+
+#: admin/class-thwcfd-admin-form-field.php:44
+msgid "Select"
+msgstr "Выпадающий список"
+
+#: admin/class-thwcfd-admin-form-field.php:40
+msgid "Text"
+msgstr "Текстовое"
+
+#: admin/class-thwcfd-admin-settings-general.php:80
+#: admin/class-thwcfd-admin-settings-general.php:173
+msgid "Edit"
+msgstr "Изменить"
+
+#: admin/class-thwcfd-admin-settings-general.php:94
+msgid "Reset to default fields"
+msgstr "Восстановить поля по умолчанию"
+
+#: admin/class-thwcfd-admin-settings-general.php:93
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+#: admin/class-thwcfd-admin-settings-general.php:90
+msgid "Disable"
+msgstr "Выключить"
+
+#: admin/class-thwcfd-admin-settings-general.php:89
+msgid "Enable"
+msgstr "Включить"
+
+#: admin/class-thwcfd-admin-settings-general.php:88
+msgid "Remove"
+msgstr "Удалить"
+
+#: admin/class-thwcfd-admin-settings-general.php:87
+msgid "Add field"
+msgstr "Добавить поле"
+
+#: includes/utils/class-thwcfd-utils.php:126
+msgctxt "placeholder"
+msgid "Notes about your order, e.g. special notes for delivery."
+msgstr "Примечания к вашему заказу, например особые пожелания для службы доставки."
+
+#: includes/utils/class-thwcfd-utils.php:125
+msgid "Order Notes"
+msgstr "Примечания к заказу"
+
+#: admin/class-thwcfd-admin.php:75
+msgid "Settings"
+msgstr "Настройки"
+
+#: admin/class-thwcfd-admin.php:69
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: admin/class-thwcfd-admin.php:64
+msgid "Checkout Form"
+msgstr "Форма оформления заказа"
+
+#. Description of the plugin
+msgid "Customize WooCommerce checkout fields(Add, Edit, Delete and re-arrange fields)."
+msgstr "Настройка полей на странице оформления заказа WooCommerce (добавление, изменение, удаление и сортировка полей)."
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.themehigh.com"
+msgstr "https://www.themehigh.com"
+
+#. Plugin Name of the plugin
+msgid "Checkout Field Editor for WooCommerce"
+msgstr "Редактор полей оформления заказа для WooCommerce"

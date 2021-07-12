@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CF7 user TO MailChimp Audience\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-05 12:30+0000\n"
+"POT-Creation-Date: 2021-07-12 11:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -27,7 +27,7 @@ msgstr ""
 msgid "Add new Subscriber to Audience"
 msgstr ""
 
-#: admin_menu.php:18
+#: admin_menu.php:18 admin_menu.php:30
 msgid "Audience list"
 msgstr ""
 
@@ -115,6 +115,10 @@ msgstr ""
 msgid "Save"
 msgstr ""
 
+#: wm_cf7_userto_mchimp.php:52
+msgid "Settings"
+msgstr ""
+
 #: admin_menu.php:78
 msgid "State"
 msgstr ""
@@ -132,7 +136,11 @@ msgid "Transfer of users from Contact Form 7 to Mailchimp Audience."
 msgstr ""
 
 #: admin_menu.php:106
-msgid "User Adder!!!"
+msgid "User Added!"
+msgstr ""
+
+#: admin_menu.php:84
+msgid "Why did you receive this letter."
 msgstr ""
 
 #: admin_menu.php:79

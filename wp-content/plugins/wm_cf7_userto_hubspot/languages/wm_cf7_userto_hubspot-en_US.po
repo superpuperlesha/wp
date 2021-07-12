@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: CF7 user TO HubSpot Contacts\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-26 15:52+0000\n"
-"PO-Revision-Date: 2021-03-05 12:31+0000\n"
+"PO-Revision-Date: 2021-07-12 10:40+0000\n"
 "Last-Translator: \n"
 "Language-Team: English (United States)\n"
 "Language: en_US\n"
@@ -18,11 +18,7 @@ msgstr ""
 msgid "Add"
 msgstr "Add"
 
-#: admin_menu.php:20
-msgid "Add New Contact to Company"
-msgstr "Add New Contact to Company"
-
-#: admin_menu.php:110
+#: admin_menu.php:20 admin_menu.php:110
 msgid "Add new Contact to Company"
 msgstr "Add new Contact to Company"
 
@@ -46,9 +42,13 @@ msgstr "CF7 short code, with company id"
 msgid "Company"
 msgstr "Company"
 
-#: admin_menu.php:18
+#: admin_menu.php:18 admin_menu.php:30
 msgid "Company list"
 msgstr "Company list"
+
+#: admin_menu.php:33
+msgid "Company name"
+msgstr "Company name"
 
 #: admin_menu.php:104
 msgid "Contact added to company."
@@ -62,7 +62,7 @@ msgstr "Contact created."
 msgid "Contact Form user to HubSpot Contacts"
 msgstr "Contact Form user to HubSpot Contacts"
 
-#: admin_menu.php:19
+#: admin_menu.php:19 admin_menu.php:56
 msgid "Contact list"
 msgstr "Contact list"
 
@@ -76,7 +76,7 @@ msgstr "Contact NOT created!!!"
 
 #: admin_menu.php:22 admin_menu.php:169
 msgid "Credentials to API HubSpot"
-msgstr ""
+msgstr "Credentials to API HubSpot"
 
 #: admin_menu.php:36
 msgid "Deleted"
@@ -92,23 +92,23 @@ msgstr "First Name"
 
 #: admin_menu.php:172
 msgid "HubSpot API KEY"
-msgstr ""
+msgstr "HubSpot API KEY"
 
 #: admin_menu.php:60 admin_menu.php:134
 msgid "Last Name"
 msgstr "Last Name"
 
-#: admin_menu.php:33
-msgid "Name"
-msgstr "Name"
-
 #: admin_menu.php:175
 msgid "Save"
-msgstr ""
+msgstr "Save"
+
+#: wm_cf7_userto_hubspot.php:38
+msgid "Settings"
+msgstr "Settings"
 
 #: admin_menu.php:34
 msgid "Site"
-msgstr ""
+msgstr "Site"
 
 #. Author of the plugin
 msgid "superpuperlesha@gmail.com"

@@ -1,0 +1,550 @@
+# Translation of Plugins - CMB2 - Development (trunk) in Russian
+# This file is distributed under the same license as the Plugins - CMB2 - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-03-23 21:52:14+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - CMB2 - Development (trunk)\n"
+
+#: includes/types/CMB2_Type_Counter_Base.php:50
+msgid "Words left"
+msgstr "Осталось слов"
+
+#: includes/types/CMB2_Type_Counter_Base.php:51
+msgid "Words"
+msgstr "Слова"
+
+#: includes/types/CMB2_Type_Counter_Base.php:56
+msgid "Characters left"
+msgstr "Осталось символов"
+
+#: includes/types/CMB2_Type_Counter_Base.php:57
+msgid "Characters"
+msgstr "Символы"
+
+#: includes/types/CMB2_Type_Counter_Base.php:62
+msgid "Your text may be truncated."
+msgstr "Ваш текст может быть укорочен."
+
+#. translators: %s: register_routes()
+#: includes/shim/WP_REST_Controller.php:25
+msgid "Method '%s' must be overridden."
+msgstr "Метод «%s» необходимо переопределить."
+
+#: example-functions.php:753
+msgid "%s &mdash; Updated!"
+msgstr "%s обновлён!"
+
+#: includes/CMB2_Hookup_Base.php:44
+msgid "%1$s should be implemented by the extended class."
+msgstr "%1$s требует реализации расширенным классом."
+
+#: includes/CMB2_Options_Hookup.php:143
+msgid "Settings updated."
+msgstr "Настройки обновлены."
+
+#: example-functions.php:685
+msgid "Theme Options"
+msgstr "Параметры темы"
+
+#: includes/CMB2_Options_Hookup.php:139
+msgid "Nothing to update."
+msgstr "Обновлять нечего."
+
+#: includes/CMB2_Types.php:408
+msgid "Remove Row"
+msgstr "Удалить строку"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/CMB2/CMB2"
+msgstr "https://github.com/CMB2/CMB2"
+
+#. Author of the plugin
+msgid "CMB2 team"
+msgstr "Команда CMB2"
+
+#. Author URI of the plugin
+msgid "https://cmb2.io"
+msgstr "https://cmb2.io"
+
+#: includes/CMB2_Types.php:226
+msgid "Custom CMB2 field type classes must extend CMB2_Type_Base."
+msgstr "Классы типов произвольных полей CMB2 должны расширять CMB2_Type_Base."
+
+#: includes/CMB2_Hookup.php:560
+msgid "Toggle panel: %s"
+msgstr "Панель переключения: %s"
+
+#: example-functions.php:785
+msgid "REST Test Box"
+msgstr "Тестовый бокс REST"
+
+#: example-functions.php:794
+msgid "REST Test Text"
+msgstr "Тестовый текст REST"
+
+#: example-functions.php:801
+msgid "REST Editable Test Text"
+msgstr "Редактируемый тестовый текст REST"
+
+#: example-functions.php:795
+msgid "Will show in the REST API for this box and for pages."
+msgstr "Будет отображаться в REST API для этого бокса и страниц."
+
+#: example-functions.php:802
+msgid "Will show in REST API \"editable\" contexts only (`POST` requests)."
+msgstr "Будет отображаться только в «редактируемом» контексте REST API (запросы `POST`)."
+
+#: example-functions.php:659
+msgid "Term Image"
+msgstr "Изображение термина"
+
+#: example-functions.php:666
+msgid "Arbitrary Term Field"
+msgstr "Поле произвольного термина"
+
+#: includes/CMB2_Hookup.php:188
+msgid "Term Metadata is a WordPress 4.4+ feature. Please upgrade your WordPress install."
+msgstr "Мета-данные термина базируются на функционале WordPress 4.4+. Обновите свой WordPress."
+
+#: example-functions.php:644
+msgid "Category Metabox"
+msgstr "Метабокс категории"
+
+#: includes/CMB2_Hookup.php:192
+msgid "Term metaboxes configuration requires a \"taxonomies\" parameter."
+msgstr "Конфигурация метабоксов термина требуют параметр «таксономий»."
+
+#: example-functions.php:369
+msgid "Test Taxonomy Radio"
+msgstr "Переключатели таксономии"
+
+#: example-functions.php:383
+msgid "Test Taxonomy Select"
+msgstr "Выпадающий список с таксономиями"
+
+#: example-functions.php:391
+msgid "Test Taxonomy Multi Checkbox"
+msgstr "Мультивыбор таксономии"
+
+#: example-functions.php:400
+msgid "Test Checkbox"
+msgstr "Флажок"
+
+#: example-functions.php:407
+msgid "Test Multi Checkbox"
+msgstr "Множество флажков"
+
+#: example-functions.php:413
+msgid "Check One"
+msgstr "Первое значение"
+
+#: example-functions.php:414
+msgid "Check Two"
+msgstr "Второе значение"
+
+#: example-functions.php:415
+msgid "Check Three"
+msgstr "Третье значение"
+
+#: example-functions.php:421
+msgid "Test wysiwyg"
+msgstr "Визуальный редактор"
+
+#: example-functions.php:431
+msgid "Test Image"
+msgstr "Тестовое изображение"
+
+#: example-functions.php:432
+msgid "Upload an image or enter a URL."
+msgstr "Загрузите изображение или введите URL"
+
+#: example-functions.php:438
+msgid "Multiple Files"
+msgstr "Несколько файлов"
+
+#: example-functions.php:439
+msgid "Upload or add multiple images/attachments."
+msgstr "Загрузите или добавьте несколько изображений/вложений"
+
+#: example-functions.php:481
+msgid "About Page Metabox"
+msgstr "Блок страницы \"О нас\""
+
+#: example-functions.php:511
+msgid "Repeating Field Group"
+msgstr "Повторяемая группа полей"
+
+#: example-functions.php:519
+msgid "Generates reusable form entries"
+msgstr "Генерирует повторно используемые формы"
+
+#: example-functions.php:521
+msgid "Entry {#}"
+msgstr "Запись {#}"
+
+#: example-functions.php:522
+msgid "Add Another Entry"
+msgstr "Добавить еще одну Запись"
+
+#: example-functions.php:523
+msgid "Remove Entry"
+msgstr "Удалить Запись"
+
+#: example-functions.php:537
+msgid "Entry Title"
+msgstr "Заголовок записи"
+
+#: example-functions.php:544
+msgid "Description"
+msgstr "Описание"
+
+#: example-functions.php:545
+msgid "Write a short description for this entry"
+msgstr "Введите короткое описание для этой записи"
+
+#: example-functions.php:551
+msgid "Entry Image"
+msgstr "Изображение записи"
+
+#: example-functions.php:557
+msgid "Image Caption"
+msgstr "Подпись"
+
+#: example-functions.php:575
+msgid "User Profile Metabox"
+msgstr "Блок профайла пользователя"
+
+#: example-functions.php:582 example-functions.php:651
+msgid "Extra Info"
+msgstr "Дополнительная информация"
+
+#: example-functions.php:590
+msgid "Avatar"
+msgstr "Аватар"
+
+#: example-functions.php:597
+msgid "Facebook URL"
+msgstr "URL-адрес Facebook"
+
+#: example-functions.php:604
+msgid "Twitter URL"
+msgstr "Адрес Twitter"
+
+#: example-functions.php:611
+msgid "Google+ URL"
+msgstr "URL-адрес Google+ "
+
+#: example-functions.php:618
+msgid "Linkedin URL"
+msgstr "Адрес LinkedIn"
+
+#: example-functions.php:625
+msgid "User Field"
+msgstr "Пользовательское поле"
+
+#: example-functions.php:716
+msgid "Site Background Color"
+msgstr "Цвет фона сайта"
+
+#: includes/CMB2.php:618
+msgid "Click to toggle"
+msgstr "﻿Нажмите, чтобы переключить"
+
+#: includes/CMB2_Ajax.php:75
+msgid "Please Try Again"
+msgstr "Пожалуйста, попробуйте еще раз"
+
+#: includes/CMB2_Ajax.php:181
+msgid "Remove Embed"
+msgstr "Убрать встроенный объект"
+
+#: includes/CMB2_Field.php:1438
+msgid "Add Group"
+msgstr "Добавить группу"
+
+#: includes/CMB2_Field.php:1439
+msgid "Remove Group"
+msgstr "Убрать группу"
+
+#: includes/CMB2_Field.php:1471 includes/CMB2_Field.php:1475
+msgid "None"
+msgstr "Нет"
+
+#: includes/CMB2_JS.php:177 includes/CMB2_JS.php:222
+msgid "Clear"
+msgstr "Очистить"
+
+#: includes/CMB2_JS.php:178
+msgid "Default"
+msgstr "По умолчанию"
+
+#: includes/CMB2_JS.php:180
+msgid "Current Color"
+msgstr "Текущий цвет"
+
+#: includes/CMB2_JS.php:213
+msgid "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+msgstr "Воскресенье, Понедельник, Вторник, Среда, Четверг, Пятница, Суббота"
+
+#: includes/CMB2_JS.php:214
+msgid "Su, Mo, Tu, We, Th, Fr, Sa"
+msgstr "Вс, Пн, Вт, Ср, Чт, Пт, Сб"
+
+#: includes/CMB2_JS.php:215
+msgid "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+msgstr "Вск, Пон, Втр,  Срд, Чтв, Птн, Сбт"
+
+#: includes/CMB2_JS.php:216
+msgid "January, February, March, April, May, June, July, August, September, October, November, December"
+msgstr "Январь, Февраль, Март, Апрель, Май, Июнь, Июль, Август, Сентябрь, Октябрь, Ноябрь, Декабрь"
+
+#: includes/CMB2_JS.php:217
+msgid "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+msgstr "Янв, Фев, Мар, Апр, Май, Июн, Июл, Авг, Сен, Окт, Ноя, Дек"
+
+#: includes/CMB2_JS.php:218
+msgid "Next"
+msgstr "Далее"
+
+#: includes/CMB2_JS.php:219
+msgid "Prev"
+msgstr "Назад"
+
+#: includes/CMB2_JS.php:220
+msgid "Today"
+msgstr "Сегодня"
+
+#: includes/CMB2_JS.php:221 includes/CMB2_JS.php:231
+msgid "Done"
+msgstr "Готово"
+
+#: includes/CMB2_JS.php:225
+msgid "Choose Time"
+msgstr "Выберите время"
+
+#: includes/CMB2_JS.php:226
+msgid "Time"
+msgstr "Время"
+
+#: includes/CMB2_JS.php:227
+msgid "Hour"
+msgstr "Час"
+
+#: includes/CMB2_JS.php:228
+msgid "Minute"
+msgstr "Минута"
+
+#: includes/CMB2_JS.php:229
+msgid "Second"
+msgstr "Секунда"
+
+#: includes/CMB2_JS.php:230
+msgid "Now"
+msgstr "Сейчас"
+
+#: includes/CMB2_JS.php:238
+msgid "Use this file"
+msgstr "Использовать этот файл"
+
+#: includes/CMB2_JS.php:239
+msgid "Use these files"
+msgstr "Использовать эти файлы"
+
+#: includes/types/CMB2_Type_File_Base.php:75 includes/CMB2_JS.php:240
+msgid "Remove Image"
+msgstr "Удалить изображение"
+
+#: includes/types/CMB2_Type_File_Base.php:95 includes/CMB2_Types.php:408
+#: includes/CMB2_JS.php:241
+msgid "Remove"
+msgstr "Убрать"
+
+#: includes/types/CMB2_Type_File_Base.php:90
+#: includes/CMB2_Field_Display.php:453 includes/CMB2_JS.php:242
+msgid "File:"
+msgstr "Файл:"
+
+#: includes/types/CMB2_Type_File_Base.php:93 includes/CMB2_JS.php:243
+msgid "Download"
+msgstr "Скачать"
+
+#: includes/CMB2_JS.php:244
+msgid "Select / Deselect All"
+msgstr "Выбрать/сбросить все"
+
+#: includes/CMB2_Types.php:344
+msgid "Add Row"
+msgstr "Добавить строку"
+
+#: includes/types/CMB2_Type_File_List.php:41
+msgid "Add or Upload Files"
+msgstr "Добавить или загрузить файлы"
+
+#: includes/types/CMB2_Type_File.php:76
+msgid "Add or Upload File"
+msgstr "Добавить или загрузить файл"
+
+#: includes/helper-functions.php:308
+msgid "Save"
+msgstr "Сохранить"
+
+#. Plugin Name of the plugin
+msgid "CMB2"
+msgstr "CMB2"
+
+#. Description of the plugin
+msgid "CMB2 will create metaboxes and forms with custom fields that will blow your mind."
+msgstr "CMB2 позволяет создавать блоки и формы с собственными полями"
+
+#: includes/CMB2_JS.php:212
+msgctxt "Valid formatDate string for jquery-ui datepicker"
+msgid "mm/dd/yy"
+msgstr "dd.mm.yy"
+
+#: includes/CMB2_JS.php:232
+msgctxt "Valid formatting string, as per http://trentrichardson.com/examples/timepicker/"
+msgid "hh:mm TT"
+msgstr "hh:mm TT"
+
+#: includes/types/CMB2_Type_Taxonomy_Base.php:115
+msgid "No terms"
+msgstr "Нет терминов"
+
+#: includes/CMB2_JS.php:179
+msgid "Select Color"
+msgstr "Выберите цвет"
+
+#: example-functions.php:446
+msgid "oEmbed"
+msgstr "oEmbed"
+
+#: includes/CMB2.php:199
+msgid "Metabox configuration is required to have an ID parameter."
+msgstr "﻿Конфигурация метабокса должна иметь параметр ID."
+
+#: example-functions.php:148 example-functions.php:492
+msgid "Test Text"
+msgstr "Текстовое поле"
+
+#: example-functions.php:149 example-functions.php:162
+#: example-functions.php:175 example-functions.php:182
+#: example-functions.php:195 example-functions.php:203
+#: example-functions.php:212 example-functions.php:220
+#: example-functions.php:235 example-functions.php:243
+#: example-functions.php:251 example-functions.php:268
+#: example-functions.php:277 example-functions.php:293
+#: example-functions.php:300 example-functions.php:307
+#: example-functions.php:332 example-functions.php:345
+#: example-functions.php:358 example-functions.php:370
+#: example-functions.php:384 example-functions.php:392
+#: example-functions.php:401 example-functions.php:408
+#: example-functions.php:422 example-functions.php:493
+#: example-functions.php:583 example-functions.php:591
+#: example-functions.php:598 example-functions.php:605
+#: example-functions.php:612 example-functions.php:619
+#: example-functions.php:626 example-functions.php:652
+#: example-functions.php:660 example-functions.php:667
+#: example-functions.php:717
+msgid "field description (optional)"
+msgstr "описание поля (необязательно)"
+
+#: example-functions.php:161
+msgid "Test Text Small"
+msgstr "Маленькое текстовое поле"
+
+#: example-functions.php:174
+msgid "Test Text Medium"
+msgstr "Среднее текстовое поле"
+
+#: example-functions.php:202
+msgid "Website URL"
+msgstr "URL Сайта"
+
+#: example-functions.php:211
+msgid "Test Text Email"
+msgstr "Поле с Email"
+
+#: example-functions.php:219
+msgid "Test Time"
+msgstr "Поле с временем"
+
+#: example-functions.php:227 example-functions.php:228
+msgid "Time zone"
+msgstr "Часовой пояс"
+
+#: example-functions.php:234
+msgid "Test Date Picker"
+msgstr "Поле выбора даты"
+
+#: example-functions.php:242
+msgid "Test Date Picker (UNIX timestamp)"
+msgstr "Поле выбора даты (в формате UNIX)"
+
+#: example-functions.php:250
+msgid "Test Date/Time Picker Combo (UNIX timestamp)"
+msgstr "Поле выбора даты/времени (в формате UNIX)"
+
+#: example-functions.php:267
+msgid "Test Money"
+msgstr "Поле для денежных значений"
+
+#: example-functions.php:276
+msgid "Test Color Picker"
+msgstr "Поле выбора цвета"
+
+#: example-functions.php:292
+msgid "Test Text Area"
+msgstr "Текстовая область"
+
+#: example-functions.php:299
+msgid "Test Text Area Small"
+msgstr "Маленькая текстовая область"
+
+#: example-functions.php:306
+msgid "Test Text Area for Code"
+msgstr "Текстовая область для кода"
+
+#: example-functions.php:324
+msgid "Test Title Weeeee"
+msgstr "Пример заголовка"
+
+#: example-functions.php:325
+msgid "This is a title description"
+msgstr "Это описание заголовка"
+
+#: example-functions.php:331
+msgid "Test Select"
+msgstr "Пример выпадающего списка"
+
+#: example-functions.php:337 example-functions.php:350
+#: example-functions.php:362
+msgid "Option One"
+msgstr "Первая опция"
+
+#: example-functions.php:338 example-functions.php:351
+#: example-functions.php:363
+msgid "Option Two"
+msgstr "Вторая опция"
+
+#: example-functions.php:339 example-functions.php:352
+#: example-functions.php:364
+msgid "Option Three"
+msgstr "Третья опция"
+
+#: example-functions.php:344
+msgid "Test Radio inline"
+msgstr "Переключатели в ряд"
+
+#: example-functions.php:357
+msgid "Test Radio"
+msgstr "Переключатели"
+
+#: example-functions.php:115
+msgid "Test Metabox"
+msgstr "Тестовый метабокс"

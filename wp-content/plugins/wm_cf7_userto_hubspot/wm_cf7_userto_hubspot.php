@@ -24,8 +24,22 @@ if( !defined( 'ABSPATH' ) ) exit;
 define( 'wm_cf7_userto_hubspot_VERSION', '1.0.0' );
 
 
-function WMufn_USRTOHS_i18n_init() {
-    load_plugin_textdomain('wm_cf7_userto_hubspot', false, dirname(__FILE__).'/languages/');
+function WMufn_USRTOHS_i18n_init(){
+    $loaded = load_plugin_textdomain('wm_cf7_userto_hubspot', false, dirname(__FILE__).'/languages/');
+
+    if(!$loaded){
+       $loaded = load_muplugin_textdomain('wm_cf7_userto_hubspot', '/languages/');
+    }
+
+    if(!$loaded){
+        $loaded = load_theme_textdomain('wm_cf7_userto_hubspot', get_stylesheet_directory().'/languages/');
+    }
+
+    if(!$loaded){
+        $locale = apply_filters('plugin_locale', function_exists('determine_locale') ?determine_locale() :get_locale(), 'wm_cf7_userto_hubspot');
+        $mofile = dirname( __FILE__ ).'/languages/wm_cf7_userto_hubspot-'.$locale.'.mo';
+        load_textdomain('wm_cf7_userto_hubspot', $mofile);
+    }
 }
 add_action('plugins_loaded','WMufn_USRTOHS_i18n_init');
 

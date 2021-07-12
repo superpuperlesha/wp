@@ -17,7 +17,7 @@ echo'<table class="form-table">
 	<tr>
 		<td align="center"><a href="'.admin_url().'/options-general.php?page='.\WM_CF7USRTOHS_ns\WM_CF7USRTOHS::$suf.'&wm_mchp_companies"     ><b>'.__('Company list', 'wm_cf7_userto_hubspot').'</b></a></td>
 		<td align="center"><a href="'.admin_url().'/options-general.php?page='.\WM_CF7USRTOHS_ns\WM_CF7USRTOHS::$suf.'&wm_mchp_contacts"      ><b>'.__('Contact list', 'wm_cf7_userto_hubspot').'</b></a></td>
-		<td align="center"><a href="'.admin_url().'/options-general.php?page='.\WM_CF7USRTOHS_ns\WM_CF7USRTOHS::$suf.'&wm_mchp_audienceadusr" ><b>'.__('Add New Contact to Company', 'wm_cf7_userto_hubspot').'</b></a></td>
+		<td align="center"><a href="'.admin_url().'/options-general.php?page='.\WM_CF7USRTOHS_ns\WM_CF7USRTOHS::$suf.'&wm_mchp_audienceadusr" ><b>'.__('Add new Contact to Company', 'wm_cf7_userto_hubspot').'</b></a></td>
 		<td align="center"><a href="'.admin_url().'/options-general.php?page='.\WM_CF7USRTOHS_ns\WM_CF7USRTOHS::$suf.'&wm_mchp_cf7"           ><b>'.__('CF7 Integration', 'wm_cf7_userto_hubspot').'</b></a></td>
 		<td align="center"><a href="'.admin_url().'/options-general.php?page='.\WM_CF7USRTOHS_ns\WM_CF7USRTOHS::$suf.'&wm_mchp_credapi"       ><b>'.__('Credentials to API HubSpot', 'wm_cf7_userto_hubspot').'</b></a></td>
 	<tr>
@@ -27,13 +27,13 @@ echo'<table class="form-table">
 if($tab==1){
 	$res = \WM_CF7USRTOHS_ns\WM_CF7USRTOHS::wm_list_Company();
 	echo'<div>
-			<h1>Company list</h1>
+			<h1>'.__('Company list', 'wm_cf7_userto_hubspot').'</h1>
 			<table class="form-table" border="1">
 				<tr>
-					<td align="center"><b>'.__('Name',      'wm_cf7_userto_hubspot').'</b></td>
-					<td align="center"><b>'.__('Site',      'wm_cf7_userto_hubspot').'</b></td>
-					<td align="center"><b>'.__('CF7 Field', 'wm_cf7_userto_hubspot').'</b></td>
-					<td align="center"><b>'.__('Deleted',   'wm_cf7_userto_hubspot').'</b></td>
+					<td align="center"><b>'.__('Company name', 'wm_cf7_userto_hubspot').'</b></td>
+					<td align="center"><b>'.__('Site',         'wm_cf7_userto_hubspot').'</b></td>
+					<td align="center"><b>'.__('CF7 Field',    'wm_cf7_userto_hubspot').'</b></td>
+					<td align="center"><b>'.__('Deleted',      'wm_cf7_userto_hubspot').'</b></td>
 				<tr>';
 				if(isset($res->companies) && is_array($res->companies)){
 					foreach($res->companies as $resi){
@@ -53,7 +53,7 @@ if($tab==1){
 if(($tab==2)){
 	$res = \WM_CF7USRTOHS_ns\WM_CF7USRTOHS::wm_list_Contact();
 	echo'<div>
-			<h1>Contact list</h1>
+			<h1>'.__('Contact list', 'wm_cf7_userto_hubspot').'</h1>
 			<table class="form-table" border="1">
 				<tr>
 					<td align="center"><b>'.__('First Name', 'wm_cf7_userto_hubspot').'</b></td>
@@ -75,7 +75,7 @@ if(($tab==2)){
 						
 						echo'<tr>
 								<td>'.esc_html((isset($resi->properties->firstname->value) ?$resi->properties->firstname->value :'')).'</td>
-								<td>'.esc_html((isset($resi->properties->lastname->value) ?$resi->properties->lastname->value :'')).'</td>
+								<td>'.esc_html((isset($resi->properties->lastname->value)  ?$resi->properties->lastname->value  :'')).'</td>
 								<td>'.(isset($resi->properties->company->value) ?esc_html($resi->properties->company->value) :'').'</td>
 								<td>'.esc_html($email).'</td>
 							<tr>';

@@ -18,14 +18,28 @@
 
 
 // Exit if accessed directly
-if( !defined( 'ABSPATH' ) ) exit;
+if(!defined('ABSPATH'))exit;
 
 
 define( 'wm_cf7_userto_mchimp_VERSION', '1.0.0' );
 
 
 function WMufn_USRTOMC_i18n_init() {
-    load_plugin_textdomain('wm_cf7_userto_mchimp', false, dirname(__FILE__).'/languages/');
+    $loaded = load_plugin_textdomain('wm_cf7_userto_mchimp', false, dirname(__FILE__).'/languages/');
+
+    if(!$loaded){
+       $loaded = load_muplugin_textdomain('wm_cf7_userto_mchimp', '/languages/');
+    }
+
+    if(!$loaded){
+        $loaded = load_theme_textdomain('wm_cf7_userto_mchimp', get_stylesheet_directory().'/languages/');
+    }
+
+    if(!$loaded){
+        $locale = apply_filters('plugin_locale', function_exists('determine_locale') ?determine_locale() :get_locale(), 'wm_cf7_userto_mchimp');
+        $mofile = dirname( __FILE__ ).'/languages/wm_cf7_userto_mchimp-'.$locale.'.mo';
+        load_textdomain('wm_cf7_userto_mchimp', $mofile);
+    }
 }
 add_action('plugins_loaded','WMufn_USRTOMC_i18n_init');
 
@@ -45,7 +59,7 @@ add_filter('plugin_action_links_'.plugin_basename(__FILE__), 'WMufn2_plugin_sett
 //===main admin menu===
 add_action('admin_menu', 'WMufn_wmcf7tomch_menu');
 function WMufn_wmcf7tomch_menu(){
-	add_submenu_page('options-general.php', 'Mail Chimp', 'Mail Chimp', 'administrator', \WM_USRTOMC_ns\WM_USRTOMC::$suf, 'WMufn_submenuPlug');
+	add_submenu_page('options-general.php', __('Mail Chimp', 'wm_cf7_userto_mchimp'), __('Mail Chimp', 'wm_cf7_userto_mchimp'), 'administrator', \WM_USRTOMC_ns\WM_USRTOMC::$suf, 'WMufn_submenuPlug');
 }
 
 

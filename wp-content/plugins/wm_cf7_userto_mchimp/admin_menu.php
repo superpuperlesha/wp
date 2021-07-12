@@ -27,7 +27,7 @@ echo'<table class="form-table">
 if($tab==1){
 	$res = \WM_USRTOMC_ns\WM_USRTOMC::wm_list_audience();
 	echo'<div>
-			<h1>Audience List</h1>
+			<h1>'.__('Audience list', 'wm_cf7_userto_mchimp').'</h1>
 			<table class="form-table" border="1">
 				<tr>
 					<td align="center"><b>'.__('Name', 'wm_cf7_userto_mchimp').'</b></td>
@@ -56,15 +56,15 @@ if($tab==1){
 
 if($tab==2){
 	if(isset($_POST['wm_mchp_add_audience_submit'])){
-		\WM_USRTOMC_ns\WM_USRTOMC::wm_create_audience(  substr($_POST['wm_mchp_add_audience_name'], 0, 100),
-														substr($_POST['wm_mchp_add_audience_email'], 0, 100),
-														substr($_POST['wm_mchp_add_audience_city'], 0, 100),
-														substr($_POST['wm_mchp_add_audience_state'], 0, 100),
-														substr($_POST['wm_mchp_add_audience_zip'], 0, 100),
-														substr($_POST['wm_mchp_add_audience_country'], 0, 100),
+		\WM_USRTOMC_ns\WM_USRTOMC::wm_create_audience(  substr($_POST['wm_mchp_add_audience_name'],      0, 100),
+														substr($_POST['wm_mchp_add_audience_email'],     0, 100),
+														substr($_POST['wm_mchp_add_audience_city'],      0, 100),
+														substr($_POST['wm_mchp_add_audience_state'],     0, 100),
+														substr($_POST['wm_mchp_add_audience_zip'],       0, 100),
+														substr($_POST['wm_mchp_add_audience_country'],   0, 100),
 														substr($_POST['wm_mchp_add_audience_from_name'], 0, 100),
-														substr($_POST['wm_mchp_add_audience_subject'], 0, 300),
-														substr($_POST['wm_mchp_add_audience_language'], 0, 2),
+														substr($_POST['wm_mchp_add_audience_subject'],   0, 300),
+														substr($_POST['wm_mchp_add_audience_language'],  0, 2),
 														substr($_POST['wm_mchp_add_audience_permission_reminder'], 0, 500)
 													);
 	}
@@ -72,16 +72,16 @@ if($tab==2){
 			<h1>'.__('Add new Audience', 'wm_cf7_userto_mchimp').'</h1>
 			<form action="'.$_SERVER['REQUEST_URI'].'" method="POST">
 			<table class="form-table">
-				<tr><td><input type="text"   name="wm_mchp_add_audience_name"                 placeholder="'.__('Name', 'wm_cf7_userto_mchimp').'"></td></tr>
-				<tr><td><input type="email"  name="wm_mchp_add_audience_email"                placeholder="'.__('E-Mail', 'wm_cf7_userto_mchimp').'"></td></tr>
-				<tr><td><input type="text"   name="wm_mchp_add_audience_city"                 placeholder="'.__('City', 'wm_cf7_userto_mchimp').'"></td></tr>
-				<tr><td><input type="text"   name="wm_mchp_add_audience_state"                placeholder="'.__('State', 'wm_cf7_userto_mchimp').'"></td></tr>
-				<tr><td><input type="text"   name="wm_mchp_add_audience_zip"                  placeholder="'.__('Zip', 'wm_cf7_userto_mchimp').'"></td></tr>
-				<tr><td><input type="text"   name="wm_mchp_add_audience_country"              placeholder="'.__('Country', 'wm_cf7_userto_mchimp').'"></td></tr>
-				<tr><td><input type="text"   name="wm_mchp_add_audience_from_name"            placeholder="'.__('From Name', 'wm_cf7_userto_mchimp').'"></td></tr>
-				<tr><td><input type="text"   name="wm_mchp_add_audience_subject"              placeholder="'.__('Subject', 'wm_cf7_userto_mchimp').'"></td></tr>
-				<tr><td><input type="text"   name="wm_mchp_add_audience_language"             placeholder="'.__('Language (RU,EN,...)', 'wm_cf7_userto_mchimp').'"></td></tr>
-				<tr><td><input type="text"   name="wm_mchp_add_audience_permission_reminder"  placeholder="'.__('Permis. reminder (text)', 'wm_cf7_userto_mchimp').'" title="Why did you receive this letter."></td></tr>
+				<tr><td><input type="text"   name="wm_mchp_add_audience_name"                 placeholder="'.__('Name',                    'wm_cf7_userto_mchimp').'"></td></tr>
+				<tr><td><input type="email"  name="wm_mchp_add_audience_email"                placeholder="'.__('E-Mail',                  'wm_cf7_userto_mchimp').'"></td></tr>
+				<tr><td><input type="text"   name="wm_mchp_add_audience_city"                 placeholder="'.__('City',                    'wm_cf7_userto_mchimp').'"></td></tr>
+				<tr><td><input type="text"   name="wm_mchp_add_audience_state"                placeholder="'.__('State',                   'wm_cf7_userto_mchimp').'"></td></tr>
+				<tr><td><input type="text"   name="wm_mchp_add_audience_zip"                  placeholder="'.__('Zip',                     'wm_cf7_userto_mchimp').'"></td></tr>
+				<tr><td><input type="text"   name="wm_mchp_add_audience_country"              placeholder="'.__('Country',                 'wm_cf7_userto_mchimp').'"></td></tr>
+				<tr><td><input type="text"   name="wm_mchp_add_audience_from_name"            placeholder="'.__('From Name',               'wm_cf7_userto_mchimp').'"></td></tr>
+				<tr><td><input type="text"   name="wm_mchp_add_audience_subject"              placeholder="'.__('Subject',                 'wm_cf7_userto_mchimp').'"></td></tr>
+				<tr><td><input type="text"   name="wm_mchp_add_audience_language"             placeholder="'.__('Language (RU,EN,...)',    'wm_cf7_userto_mchimp').'"></td></tr>
+				<tr><td><input type="text"   name="wm_mchp_add_audience_permission_reminder"  placeholder="'.__('Permis. reminder (text)', 'wm_cf7_userto_mchimp').'" title="'.__('Why did you receive this letter.', 'wm_cf7_userto_mchimp').'"></td></tr>
 				<tr><td>
 						<p class="submit">
 							<input type="submit"  name="wm_mchp_add_audience_submit" value="'.__('Add', 'wm_cf7_userto_mchimp').'" class="button button-primary">
@@ -98,12 +98,12 @@ if($tab==3){
 		$userID = \WM_USRTOMC_ns\WM_USRTOMC::wm_create_subscriber(  substr($_POST['wm_subscriber_fname'], 0, 100),
 																	substr($_POST['wm_subscriber_lname'], 0, 100),
 																	substr($_POST['wm_subscriber_email'], 0, 100),
-																	substr($_POST['wm_audience_id'], 0, 100)
+																	substr($_POST['wm_audience_id'],      0, 100)
 																);
 	}
 	echo'<div>
 			<h1>'.__('Add new Subscriber to Audience', 'wm_cf7_userto_mchimp').'</h1>
-			'.(isset($userID) && $userID>0 ?'<p>'.__('User Adder!!!', 'wm_cf7_userto_mchimp').'</p>' :'').'
+			'.(isset($userID) && $userID>0 ?'<p>'.__('User Added!', 'wm_cf7_userto_mchimp').'</p>' :'').'
 			<form action="'.$_SERVER['REQUEST_URI'].'" method="POST">
 				<table class="form-table">
 					<tr><td><select name="wm_audience_id">';
